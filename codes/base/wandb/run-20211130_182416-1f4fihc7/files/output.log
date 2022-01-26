@@ -1,0 +1,181 @@
+Files already downloaded and verified
+Files already downloaded and verified
+ 2021-11-30 18:24:24,573 | INFO | root 	 classes_order
+ 2021-11-30 18:24:24,573 | INFO | root 	 [[87, 0, 52, 58, 44, 91, 68, 97, 51, 15, 94, 92, 10, 72, 49, 78, 61, 14, 8, 86, 84, 96, 18, 24, 32, 45, 88, 11, 4, 67, 69, 66, 77, 47, 79, 93, 29, 50, 57, 83, 17, 81, 41, 12, 37, 59, 25, 20, 80, 73, 1, 28, 6, 46, 62, 82, 53, 9, 31, 75, 38, 63, 33, 74, 27, 22, 36, 3, 16, 21, 60, 19, 70, 90, 89, 43, 5, 42, 65, 76, 40, 30, 23, 85, 2, 95, 56, 48, 71, 64, 98, 13, 99, 7, 34, 55, 54, 26, 35, 39]]
+ 2021-11-30 18:24:27,341 | INFO | root 	 Begin step 0
+ 2021-11-30 18:24:27,342 | INFO | root 	 Now [200, 200, 200, 200, 200, 200, 200, 200, 200, 200] examplars per class.
+ 2021-11-30 18:24:27,343 | INFO | root 	 Step 0 weight decay 0.00050
+ 2021-11-30 18:24:27,423 | INFO | root 	 Train on 0->10.
+ 2021-11-30 18:24:27,424 | INFO | root 	 nb 5000
+ 2021-11-30 18:24:27,425 | INFO | root 	 Initial trainset: Weight norm per class [1.007]
+warmup
+ 2021-11-30 18:24:29,474 | INFO | root 	 Initial trainset: Feature norm per class [1.394]
+ 2021-11-30 18:24:32,011 | INFO | root 	 Task 1/10, Epoch 1/17 => Clf loss: 2.037 Aux loss: 0.0, Train Accu: 28.26
+ 2021-11-30 18:24:35,229 | INFO | root 	 Task 1/10, Epoch 2/17 => Clf loss: 1.783 Aux loss: 0.0, Train Accu: 37.38
+ 2021-11-30 18:24:38,455 | INFO | root 	 Task 1/10, Epoch 3/17 => Clf loss: 1.688 Aux loss: 0.0, Train Accu: 39.8
+ 2021-11-30 18:24:41,657 | INFO | root 	 Task 1/10, Epoch 4/17 => Clf loss: 1.636 Aux loss: 0.0, Train Accu: 42.26
+ 2021-11-30 18:24:44,857 | INFO | root 	 Task 1/10, Epoch 5/17 => Clf loss: 1.525 Aux loss: 0.0, Train Accu: 46.56
+ 2021-11-30 18:24:48,090 | INFO | root 	 Task 1/10, Epoch 6/17 => Clf loss: 1.465 Aux loss: 0.0, Train Accu: 49.02
+ 2021-11-30 18:24:51,292 | INFO | root 	 Task 1/10, Epoch 7/17 => Clf loss: 1.406 Aux loss: 0.0, Train Accu: 51.38
+ 2021-11-30 18:24:54,524 | INFO | root 	 Task 1/10, Epoch 8/17 => Clf loss: 1.331 Aux loss: 0.0, Train Accu: 55.04
+ 2021-11-30 18:24:57,741 | INFO | root 	 Task 1/10, Epoch 9/17 => Clf loss: 1.179 Aux loss: 0.0, Train Accu: 59.9
+ 2021-11-30 18:25:01,000 | INFO | root 	 Task 1/10, Epoch 10/17 => Clf loss: 1.113 Aux loss: 0.0, Train Accu: 61.36
+ 2021-11-30 18:25:04,256 | INFO | root 	 Task 1/10, Epoch 11/17 => Clf loss: 1.26 Aux loss: 0.0, Train Accu: 56.58
+ 2021-11-30 18:25:07,452 | INFO | root 	 Task 1/10, Epoch 12/17 => Clf loss: 0.995 Aux loss: 0.0, Train Accu: 66.08
+ 2021-11-30 18:25:10,704 | INFO | root 	 Task 1/10, Epoch 13/17 => Clf loss: 0.912 Aux loss: 0.0, Train Accu: 68.26
+ 2021-11-30 18:25:13,922 | INFO | root 	 Task 1/10, Epoch 14/17 => Clf loss: 0.932 Aux loss: 0.0, Train Accu: 67.68
+ 2021-11-30 18:25:17,152 | INFO | root 	 Task 1/10, Epoch 15/17 => Clf loss: 0.803 Aux loss: 0.0, Train Accu: 71.6
+ 2021-11-30 18:25:20,338 | INFO | root 	 Task 1/10, Epoch 16/17 => Clf loss: 0.711 Aux loss: 0.0, Train Accu: 76.96
+ 2021-11-30 18:25:23,547 | INFO | root 	 Task 1/10, Epoch 17/17 => Clf loss: 0.812 Aux loss: 0.0, Train Accu: 72.92
+ 2021-11-30 18:25:24,274 | INFO | root 	 After training: Weight norm per class [2.314]
+ema init
+ 2021-11-30 18:25:25,542 | INFO | root 	 Trainset: Feature norm per class [5.462]
+ 2021-11-30 18:25:27,488 | INFO | root 	 build memory
+ 2021-11-30 18:25:27,488 | INFO | root 	 Building & updating memory.(iCaRL)
+ 2021-11-30 18:25:36,025 | INFO | root 	 Save step0 memory!
+ 2021-11-30 18:25:36,026 | INFO | root 	 Eval on 0->10.
+Set memory of size: 2000.
+warmup
+ 2021-11-30 18:25:36,768 | INFO | root 	 top1:{'total': 71.6, '00-09': 71.6}
+ 2021-11-30 18:25:36,768 | INFO | root 	 top1 ema:{'total': 71.6, '00-09': 71.6}
+ 2021-11-30 18:25:36,768 | INFO | root 	 top5:{'total': 97.7, '00-09': 97.7}
+ 2021-11-30 18:25:36,768 | INFO | root 	 top5 ema:{'total': 97.7, '00-09': 97.7}
+ 2021-11-30 18:25:37,108 | INFO | root 	 Begin step 1
+ 2021-11-30 18:25:37,109 | INFO | root 	 Now [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100] examplars per class.
+ 2021-11-30 18:25:37,110 | INFO | root 	 Step 1 weight decay 0.00050
+ 2021-11-30 18:25:37,199 | INFO | root 	 Train on 10->20.
+ 2021-11-30 18:25:37,200 | INFO | root 	 nb 7000
+ 2021-11-30 18:25:37,201 | INFO | root 	 Initial trainset: Weight norm per class [1.009, 0.998]
+ 2021-11-30 18:25:38,686 | INFO | root 	 Initial trainset: Feature norm per class [5.419, 4.948]
+/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /opt/conda/conda-bld/pytorch_1631630836880/work/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+tensor([[ 0.0444,  0.0165,  0.0584,  ...,  0.0136,  0.0773,  0.0564],
+        [ 0.0864,  0.0437, -0.0604,  ..., -0.0053, -0.0385, -0.0581],
+        [ 0.0088,  0.1127, -0.0084,  ..., -0.0280, -0.0758, -0.0115],
+        ...,
+        [-0.0027,  0.0166, -0.0326,  ..., -0.0434, -0.0258, -0.0196],
+        [-0.0625, -0.0167, -0.0107,  ..., -0.0804, -0.0995,  0.0521],
+        [-0.1002,  0.0390,  0.0548,  ..., -0.0083,  0.0221,  0.0788]],
+       device='cuda:0', requires_grad=True) None
+tensor([[ 0.0444,  0.0165,  0.0584,  ...,  0.0136,  0.0773,  0.0564],
+        [ 0.0864,  0.0437, -0.0604,  ..., -0.0053, -0.0385, -0.0581],
+        [ 0.0088,  0.1127, -0.0084,  ..., -0.0280, -0.0758, -0.0115],
+        ...,
+        [-0.0027,  0.0166, -0.0326,  ..., -0.0434, -0.0258, -0.0196],
+        [-0.0625, -0.0167, -0.0107,  ..., -0.0804, -0.0995,  0.0521],
+        [-0.1002,  0.0390,  0.0548,  ..., -0.0083,  0.0221,  0.0788]],
+       device='cuda:0', requires_grad=True) None
+tensor([[ 0.0444,  0.0165,  0.0584,  ...,  0.0136,  0.0773,  0.0564],
+        [ 0.0864,  0.0437, -0.0604,  ..., -0.0053, -0.0385, -0.0581],
+        [ 0.0088,  0.1127, -0.0084,  ..., -0.0280, -0.0758, -0.0115],
+        ...,
+        [-0.0027,  0.0166, -0.0326,  ..., -0.0434, -0.0258, -0.0196],
+        [-0.0625, -0.0167, -0.0107,  ..., -0.0804, -0.0995,  0.0521],
+        [-0.1002,  0.0390,  0.0548,  ..., -0.0083,  0.0221,  0.0788]],
+       device='cuda:0', requires_grad=True) None
+tensor([[ 0.0444,  0.0165,  0.0584,  ...,  0.0136,  0.0773,  0.0564],
+        [ 0.0864,  0.0437, -0.0604,  ..., -0.0053, -0.0385, -0.0581],
+        [ 0.0088,  0.1127, -0.0084,  ..., -0.0280, -0.0758, -0.0115],
+        ...,
+        [-0.0027,  0.0166, -0.0326,  ..., -0.0434, -0.0258, -0.0196],
+        [-0.0625, -0.0167, -0.0107,  ..., -0.0804, -0.0995,  0.0521],
+        [-0.1002,  0.0390,  0.0548,  ..., -0.0083,  0.0221,  0.0788]],
+       device='cuda:0', requires_grad=True) None
+tensor([[ 0.0444,  0.0165,  0.0584,  ...,  0.0136,  0.0773,  0.0564],
+        [ 0.0864,  0.0437, -0.0604,  ..., -0.0053, -0.0385, -0.0581],
+        [ 0.0088,  0.1127, -0.0084,  ..., -0.0280, -0.0758, -0.0115],
+        ...,
+        [-0.0027,  0.0166, -0.0326,  ..., -0.0434, -0.0258, -0.0196],
+        [-0.0625, -0.0167, -0.0107,  ..., -0.0804, -0.0995,  0.0521],
+        [-0.1002,  0.0390,  0.0548,  ..., -0.0083,  0.0221,  0.0788]],
+       device='cuda:0', requires_grad=True) None
+tensor([[ 0.0444,  0.0165,  0.0584,  ...,  0.0136,  0.0773,  0.0564],
+        [ 0.0864,  0.0437, -0.0604,  ..., -0.0053, -0.0385, -0.0581],
+        [ 0.0088,  0.1127, -0.0084,  ..., -0.0280, -0.0758, -0.0115],
+        ...,
+        [-0.0027,  0.0166, -0.0326,  ..., -0.0434, -0.0258, -0.0196],
+        [-0.0625, -0.0167, -0.0107,  ..., -0.0804, -0.0995,  0.0521],
+        [-0.1002,  0.0390,  0.0548,  ..., -0.0083,  0.0221,  0.0788]],
+       device='cuda:0', requires_grad=True) None
+tensor([[ 0.0444,  0.0165,  0.0584,  ...,  0.0136,  0.0773,  0.0564],
+        [ 0.0864,  0.0437, -0.0604,  ..., -0.0053, -0.0385, -0.0581],
+        [ 0.0088,  0.1127, -0.0084,  ..., -0.0280, -0.0758, -0.0115],
+        ...,
+        [-0.0027,  0.0166, -0.0326,  ..., -0.0434, -0.0258, -0.0196],
+        [-0.0625, -0.0167, -0.0107,  ..., -0.0804, -0.0995,  0.0521],
+        [-0.1002,  0.0390,  0.0548,  ..., -0.0083,  0.0221,  0.0788]],
+       device='cuda:0', requires_grad=True) None
+tensor([[ 0.0444,  0.0165,  0.0584,  ...,  0.0136,  0.0773,  0.0564],
+        [ 0.0864,  0.0437, -0.0604,  ..., -0.0053, -0.0385, -0.0581],
+        [ 0.0088,  0.1127, -0.0084,  ..., -0.0280, -0.0758, -0.0115],
+        ...,
+        [-0.0027,  0.0166, -0.0326,  ..., -0.0434, -0.0258, -0.0196],
+        [-0.0625, -0.0167, -0.0107,  ..., -0.0804, -0.0995,  0.0521],
+        [-0.1002,  0.0390,  0.0548,  ..., -0.0083,  0.0221,  0.0788]],
+       device='cuda:0', requires_grad=True) None
+tensor([[ 0.0444,  0.0165,  0.0584,  ...,  0.0136,  0.0773,  0.0564],
+        [ 0.0864,  0.0437, -0.0604,  ..., -0.0053, -0.0385, -0.0581],
+        [ 0.0088,  0.1127, -0.0084,  ..., -0.0280, -0.0758, -0.0115],
+        ...,
+        [-0.0027,  0.0166, -0.0326,  ..., -0.0434, -0.0258, -0.0196],
+        [-0.0625, -0.0167, -0.0107,  ..., -0.0804, -0.0995,  0.0521],
+        [-0.1002,  0.0390,  0.0548,  ..., -0.0083,  0.0221,  0.0788]],
+       device='cuda:0', requires_grad=True) None
+Traceback (most recent call last):
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/experiment.py", line 318, in run_commandline
+    options=args,
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/experiment.py", line 276, in run
+    run()
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/run.py", line 238, in __call__
+    self.result = self.main_function(*args)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/config/captured_function.py", line 42, in captured_function
+    result = wrapped(*args, **kwargs)
+  File "/home/share/jiawei/solf/codes/base/main.py", line 69, in train
+    _train(cfg, _run, ex, tensorboard)
+  File "/home/share/jiawei/solf/codes/base/main.py", line 120, in _train
+    model.train_task(train_loader, val_loader)
+  File "/home/share/jiawei/solf/inclearn/models/base.py", line 43, in train_task
+    self._train_task(train_loader, val_loader)
+  File "/home/share/jiawei/solf/inclearn/models/incmodel.py", line 315, in _train_task
+    self._get_ttrans()
+  File "/home/share/jiawei/solf/inclearn/models/incmodel.py", line 478, in _get_ttrans
+    return summ / len(self._n_classes-self._task_size)
+TypeError: object of type 'int' has no len()
+tensor([[ 0.0444,  0.0165,  0.0584,  ...,  0.0136,  0.0773,  0.0564],
+        [ 0.0864,  0.0437, -0.0604,  ..., -0.0053, -0.0385, -0.0581],
+        [ 0.0088,  0.1127, -0.0084,  ..., -0.0280, -0.0758, -0.0115],
+        ...,
+        [-0.0027,  0.0166, -0.0326,  ..., -0.0434, -0.0258, -0.0196],
+        [-0.0625, -0.0167, -0.0107,  ..., -0.0804, -0.0995,  0.0521],
+        [-0.1002,  0.0390,  0.0548,  ..., -0.0083,  0.0221,  0.0788]],
+       device='cuda:0', requires_grad=True) None
+> /home/share/jiawei/solf/inclearn/models/incmodel.py(478)_get_ttrans()
+-> return summ / len(self._n_classes-self._task_size)
+[?2004h(Pdb) self
+<inclearn.models.incmodel.IncModel object at 0x7f806032add0>
+[?2004h(Pdb) self._network.classifier.weight
+tensor([[ 0.0444,  0.0165,  0.0584,  ...,  0.0136,  0.0773,  0.0564],
+        [ 0.0864,  0.0437, -0.0604,  ..., -0.0053, -0.0385, -0.0581],
+        [ 0.0088,  0.1127, -0.0084,  ..., -0.0280, -0.0758, -0.0115],
+        ...,
+        [-0.0027,  0.0166, -0.0326,  ..., -0.0434, -0.0258, -0.0196],
+        [-0.0625, -0.0167, -0.0107,  ..., -0.0804, -0.0995,  0.0521],
+        [-0.1002,  0.0390,  0.0548,  ..., -0.0083,  0.0221,  0.0788]],
+       device='cuda:0', requires_grad=True)
+
+[?2004h(Pdb) self._network.classifier.bias
+[?2004h(Pdb) self._network.classifier.bias.sh
+[?2004h(Pdb) Error: 'NoneType' object has no attribute 'shape'
+[?2004h(Pdb) self._network.classifier.weight.attribute 'shape'
+        [ 0.0864,  0.0437, -0.0604,  ..., -0.0053, -0.0385, -0.0581],
+        [ 0.0864,  0.0437, -0.0604,  ..., -0.0053, -0.0385, -0.0581],
+        [ 0.0088,  0.1127, -0.0084,  ..., -0.0280, -0.0758, -0.0115],
+        ...,
+        [-0.0027,  0.0166, -0.0326,  ..., -0.0434, -0.0258, -0.0196],
+        [-0.0625, -0.0167, -0.0107,  ..., -0.0804, -0.0995,  0.0521],
+        [-0.1002,  0.0390,  0.0548,  ..., -0.0083,  0.0221,  0.0788]],
+       device='cuda:0')
+[?2004h(Pdb) self._network.classifier.weight.data.sha
+[?2004h(Pdb) self._network.classifier.weight.data.shape
+[?2004h(Pdb) self._network.classifier.weight.data.shape

@@ -1,0 +1,377 @@
+(50000, 128, 128, 3) (50000,)
+Files already downloaded and verified
+Files already downloaded and verified
+(50000, 32, 32, 3)
+ 2022-01-20 13:15:14,389 | INFO | root 	 classes_order
+
+ 2022-01-20 13:15:14,390 | INFO | root 	 [[87, 0, 52, 58, 44, 91, 68, 97, 51, 15, 94, 92, 10, 72, 49, 78, 61, 14, 8, 86, 84, 96, 18, 24, 32, 45, 88, 11, 4, 67, 69, 66, 77, 47, 79, 93, 29, 50, 57, 83, 17, 81, 41, 12, 37, 59, 25, 20, 80, 73, 1, 28, 6, 46, 62, 82, 53, 9, 31, 75, 38, 63, 33, 74, 27, 22, 36, 3, 16, 21, 60, 19, 70, 90, 89, 43, 5, 42, 65, 76, 40, 30, 23, 85, 2, 95, 56, 48, 71, 64, 98, 13, 99, 7, 34, 55, 54, 26, 35, 39]]
+ (50000,)
+
+ 2022-01-20 13:15:51,545 | INFO | root 	 Begin step 0
+
+ 2022-01-20 13:15:51,546 | INFO | root 	 Now [200, 200, 200, 200, 200, 200, 200, 200, 200, 200] examplars per class.
+
+ 2022-01-20 13:15:51,575 | INFO | root 	 Step 0 weight decay 0.00050
+warmup
+
+ 2022-01-20 13:15:51,581 | INFO | root 	 Train on 0->10.
+
+ 2022-01-20 13:15:51,582 | INFO | root 	 nb 5000
+
+ 2022-01-20 13:15:51,585 | INFO | root 	 Initial trainset: Weight norm per class [1.007]
+
+ 2022-01-20 13:15:54,397 | INFO | root 	 Initial trainset: Feature norm per class [1.397]
+
+ 2022-01-20 13:15:59,774 | INFO | root 	 Task 1/10, Epoch 1/170 => Clf loss: 2.097 Aux loss: 2.509, Train Accu: 25.84
+
+ 2022-01-20 13:16:06,873 | INFO | root 	 Task 1/10, Epoch 2/170 => Clf loss: 1.818 Aux loss: 2.2, Train Accu: 35.74
+
+ 2022-01-20 13:16:14,105 | INFO | root 	 Task 1/10, Epoch 3/170 => Clf loss: 1.71 Aux loss: 1.999, Train Accu: 38.84
+
+ 2022-01-20 13:16:21,425 | INFO | root 	 Task 1/10, Epoch 4/170 => Clf loss: 1.543 Aux loss: 1.852, Train Accu: 45.58
+
+ 2022-01-20 13:16:29,265 | INFO | root 	 Task 1/10, Epoch 5/170 => Clf loss: 1.417 Aux loss: 1.737, Train Accu: 50.84
+
+ 2022-01-20 13:16:37,226 | INFO | root 	 Task 1/10, Epoch 6/170 => Clf loss: 1.351 Aux loss: 1.666, Train Accu: 53.16
+
+ 2022-01-20 13:16:44,910 | INFO | root 	 Task 1/10, Epoch 7/170 => Clf loss: 1.254 Aux loss: 1.584, Train Accu: 57.1
+
+ 2022-01-20 13:16:52,468 | INFO | root 	 Task 1/10, Epoch 8/170 => Clf loss: 1.122 Aux loss: 1.497, Train Accu: 60.24
+
+ 2022-01-20 13:16:59,959 | INFO | root 	 Task 1/10, Epoch 9/170 => Clf loss: 0.988 Aux loss: 1.406, Train Accu: 65.68
+
+ 2022-01-20 13:17:07,918 | INFO | root 	 Task 1/10, Epoch 10/170 => Clf loss: 0.906 Aux loss: 1.403, Train Accu: 68.38
+
+ 2022-01-20 13:17:15,964 | INFO | root 	 Task 1/10, Epoch 11/170 => Clf loss: 1.242 Aux loss: 1.414, Train Accu: 57.42
+
+ 2022-01-20 13:17:23,726 | INFO | root 	 Task 1/10, Epoch 12/170 => Clf loss: 0.834 Aux loss: 1.264, Train Accu: 71.44
+
+ 2022-01-20 13:17:31,402 | INFO | root 	 Task 1/10, Epoch 13/170 => Clf loss: 0.858 Aux loss: 1.29, Train Accu: 70.72
+
+ 2022-01-20 13:17:39,006 | INFO | root 	 Task 1/10, Epoch 14/170 => Clf loss: 0.751 Aux loss: 1.241, Train Accu: 73.96
+
+ 2022-01-20 13:17:46,502 | INFO | root 	 Task 1/10, Epoch 15/170 => Clf loss: 0.698 Aux loss: 1.186, Train Accu: 76.34
+
+ 2022-01-20 13:17:54,333 | INFO | root 	 Task 1/10, Epoch 16/170 => Clf loss: 0.658 Aux loss: 1.151, Train Accu: 77.58
+
+ 2022-01-20 13:18:01,819 | INFO | root 	 Task 1/10, Epoch 17/170 => Clf loss: 0.632 Aux loss: 1.113, Train Accu: 78.36
+
+ 2022-01-20 13:18:09,320 | INFO | root 	 Task 1/10, Epoch 18/170 => Clf loss: 0.582 Aux loss: 1.134, Train Accu: 80.22
+
+ 2022-01-20 13:18:17,366 | INFO | root 	 Task 1/10, Epoch 19/170 => Clf loss: 0.656 Aux loss: 1.127, Train Accu: 77.6
+
+ 2022-01-20 13:18:25,136 | INFO | root 	 Task 1/10, Epoch 20/170 => Clf loss: 0.556 Aux loss: 1.029, Train Accu: 80.66
+
+ 2022-01-20 13:18:32,691 | INFO | root 	 Task 1/10, Epoch 21/170 => Clf loss: 0.507 Aux loss: 1.058, Train Accu: 82.88
+
+ 2022-01-20 13:18:40,327 | INFO | root 	 Task 1/10, Epoch 22/170 => Clf loss: 0.566 Aux loss: 1.21, Train Accu: 80.94
+
+ 2022-01-20 13:18:47,948 | INFO | root 	 Task 1/10, Epoch 23/170 => Clf loss: 0.505 Aux loss: 1.006, Train Accu: 82.58
+
+ 2022-01-20 13:18:55,502 | INFO | root 	 Task 1/10, Epoch 24/170 => Clf loss: 0.449 Aux loss: 0.997, Train Accu: 84.72
+
+ 2022-01-20 13:19:02,714 | INFO | root 	 Task 1/10, Epoch 25/170 => Clf loss: 0.528 Aux loss: 1.02, Train Accu: 82.48
+
+ 2022-01-20 13:19:10,197 | INFO | root 	 Task 1/10, Epoch 26/170 => Clf loss: 0.555 Aux loss: 1.058, Train Accu: 80.82
+
+ 2022-01-20 13:19:18,161 | INFO | root 	 Task 1/10, Epoch 27/170 => Clf loss: 0.516 Aux loss: 1.0, Train Accu: 83.34
+
+ 2022-01-20 13:19:25,674 | INFO | root 	 Task 1/10, Epoch 28/170 => Clf loss: 0.608 Aux loss: 1.289, Train Accu: 79.0
+
+ 2022-01-20 13:19:33,237 | INFO | root 	 Task 1/10, Epoch 29/170 => Clf loss: 0.51 Aux loss: 1.004, Train Accu: 82.9
+
+ 2022-01-20 13:19:42,728 | INFO | root 	 Task 1/10, Epoch 30/170 => Clf loss: 0.463 Aux loss: 0.982, Train Accu: 83.9
+
+ 2022-01-20 13:19:50,312 | INFO | root 	 Task 1/10, Epoch 31/170 => Clf loss: 0.416 Aux loss: 0.949, Train Accu: 85.78
+
+ 2022-01-20 13:19:57,681 | INFO | root 	 Task 1/10, Epoch 32/170 => Clf loss: 0.487 Aux loss: 0.971, Train Accu: 82.7
+
+ 2022-01-20 13:20:05,181 | INFO | root 	 Task 1/10, Epoch 33/170 => Clf loss: 0.408 Aux loss: 0.953, Train Accu: 85.66
+
+ 2022-01-20 13:20:12,430 | INFO | root 	 Task 1/10, Epoch 34/170 => Clf loss: 0.389 Aux loss: 0.923, Train Accu: 86.34
+
+ 2022-01-20 13:20:19,739 | INFO | root 	 Task 1/10, Epoch 35/170 => Clf loss: 0.404 Aux loss: 0.91, Train Accu: 85.96
+
+ 2022-01-20 13:20:27,144 | INFO | root 	 Task 1/10, Epoch 36/170 => Clf loss: 0.411 Aux loss: 0.905, Train Accu: 86.04
+
+ 2022-01-20 13:20:34,971 | INFO | root 	 Task 1/10, Epoch 37/170 => Clf loss: 0.475 Aux loss: 0.94, Train Accu: 83.88
+
+ 2022-01-20 13:20:42,597 | INFO | root 	 Task 1/10, Epoch 38/170 => Clf loss: 0.408 Aux loss: 0.945, Train Accu: 86.22
+
+ 2022-01-20 13:20:51,266 | INFO | root 	 Task 1/10, Epoch 39/170 => Clf loss: 0.378 Aux loss: 0.901, Train Accu: 86.78
+
+ 2022-01-20 13:20:59,047 | INFO | root 	 Task 1/10, Epoch 40/170 => Clf loss: 0.346 Aux loss: 0.865, Train Accu: 88.56
+
+ 2022-01-20 13:21:06,307 | INFO | root 	 Task 1/10, Epoch 41/170 => Clf loss: 0.427 Aux loss: 0.905, Train Accu: 85.34
+
+ 2022-01-20 13:21:13,557 | INFO | root 	 Task 1/10, Epoch 42/170 => Clf loss: 0.353 Aux loss: 0.864, Train Accu: 88.3
+
+ 2022-01-20 13:21:20,928 | INFO | root 	 Task 1/10, Epoch 43/170 => Clf loss: 0.432 Aux loss: 1.027, Train Accu: 85.9
+
+ 2022-01-20 13:21:28,489 | INFO | root 	 Task 1/10, Epoch 44/170 => Clf loss: 0.394 Aux loss: 0.894, Train Accu: 86.6
+
+ 2022-01-20 13:21:36,147 | INFO | root 	 Task 1/10, Epoch 45/170 => Clf loss: 0.357 Aux loss: 0.885, Train Accu: 87.52
+
+ 2022-01-20 13:21:43,579 | INFO | root 	 Task 1/10, Epoch 46/170 => Clf loss: 0.31 Aux loss: 0.869, Train Accu: 89.48
+
+ 2022-01-20 13:21:52,034 | INFO | root 	 Task 1/10, Epoch 47/170 => Clf loss: 0.345 Aux loss: 0.89, Train Accu: 88.46
+
+ 2022-01-20 13:21:59,377 | INFO | root 	 Task 1/10, Epoch 48/170 => Clf loss: 0.326 Aux loss: 0.87, Train Accu: 88.38
+
+ 2022-01-20 13:22:06,990 | INFO | root 	 Task 1/10, Epoch 49/170 => Clf loss: 0.28 Aux loss: 0.872, Train Accu: 90.48
+
+ 2022-01-20 13:22:14,395 | INFO | root 	 Task 1/10, Epoch 50/170 => Clf loss: 0.293 Aux loss: 0.832, Train Accu: 90.42
+
+ 2022-01-20 13:22:22,178 | INFO | root 	 Task 1/10, Epoch 51/170 => Clf loss: 0.413 Aux loss: 0.916, Train Accu: 85.8
+
+ 2022-01-20 13:22:29,705 | INFO | root 	 Task 1/10, Epoch 52/170 => Clf loss: 0.344 Aux loss: 0.853, Train Accu: 87.72
+
+ 2022-01-20 13:22:37,197 | INFO | root 	 Task 1/10, Epoch 53/170 => Clf loss: 0.306 Aux loss: 0.823, Train Accu: 90.56
+
+ 2022-01-20 13:22:44,851 | INFO | root 	 Task 1/10, Epoch 54/170 => Clf loss: 0.66 Aux loss: 3.539, Train Accu: 79.3
+
+ 2022-01-20 13:22:52,731 | INFO | root 	 Task 1/10, Epoch 55/170 => Clf loss: nan Aux loss: nan, Train Accu: 26.4
+
+ 2022-01-20 13:23:00,043 | INFO | root 	 Task 1/10, Epoch 56/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:23:07,402 | INFO | root 	 Task 1/10, Epoch 57/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:23:14,785 | INFO | root 	 Task 1/10, Epoch 58/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:23:22,333 | INFO | root 	 Task 1/10, Epoch 59/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:23:29,954 | INFO | root 	 Task 1/10, Epoch 60/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:23:37,492 | INFO | root 	 Task 1/10, Epoch 61/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:23:45,013 | INFO | root 	 Task 1/10, Epoch 62/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:23:52,290 | INFO | root 	 Task 1/10, Epoch 63/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:23:59,479 | INFO | root 	 Task 1/10, Epoch 64/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:24:06,840 | INFO | root 	 Task 1/10, Epoch 65/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:24:14,557 | INFO | root 	 Task 1/10, Epoch 66/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:24:21,828 | INFO | root 	 Task 1/10, Epoch 67/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:24:29,277 | INFO | root 	 Task 1/10, Epoch 68/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:24:36,746 | INFO | root 	 Task 1/10, Epoch 69/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:24:44,149 | INFO | root 	 Task 1/10, Epoch 70/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:24:51,344 | INFO | root 	 Task 1/10, Epoch 71/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:24:58,880 | INFO | root 	 Task 1/10, Epoch 72/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:25:06,242 | INFO | root 	 Task 1/10, Epoch 73/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:25:13,619 | INFO | root 	 Task 1/10, Epoch 74/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:25:20,928 | INFO | root 	 Task 1/10, Epoch 75/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:25:28,241 | INFO | root 	 Task 1/10, Epoch 76/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:25:35,723 | INFO | root 	 Task 1/10, Epoch 77/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:25:43,312 | INFO | root 	 Task 1/10, Epoch 78/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:25:51,216 | INFO | root 	 Task 1/10, Epoch 79/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:25:58,535 | INFO | root 	 Task 1/10, Epoch 80/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:26:05,712 | INFO | root 	 Task 1/10, Epoch 81/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:26:13,104 | INFO | root 	 Task 1/10, Epoch 82/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:26:21,755 | INFO | root 	 Task 1/10, Epoch 83/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:26:29,020 | INFO | root 	 Task 1/10, Epoch 84/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:26:36,297 | INFO | root 	 Task 1/10, Epoch 85/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:26:43,648 | INFO | root 	 Task 1/10, Epoch 86/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:26:51,242 | INFO | root 	 Task 1/10, Epoch 87/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:26:59,737 | INFO | root 	 Task 1/10, Epoch 88/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:27:08,520 | INFO | root 	 Task 1/10, Epoch 89/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:27:16,198 | INFO | root 	 Task 1/10, Epoch 90/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:27:23,568 | INFO | root 	 Task 1/10, Epoch 91/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:27:31,258 | INFO | root 	 Task 1/10, Epoch 92/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:27:38,677 | INFO | root 	 Task 1/10, Epoch 93/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:27:46,398 | INFO | root 	 Task 1/10, Epoch 94/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:27:54,416 | INFO | root 	 Task 1/10, Epoch 95/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:28:03,052 | INFO | root 	 Task 1/10, Epoch 96/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:28:10,421 | INFO | root 	 Task 1/10, Epoch 97/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:28:18,199 | INFO | root 	 Task 1/10, Epoch 98/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:28:26,095 | INFO | root 	 Task 1/10, Epoch 99/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:28:33,597 | INFO | root 	 Task 1/10, Epoch 100/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:28:41,211 | INFO | root 	 Task 1/10, Epoch 101/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:28:48,661 | INFO | root 	 Task 1/10, Epoch 102/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:28:56,341 | INFO | root 	 Task 1/10, Epoch 103/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:29:04,230 | INFO | root 	 Task 1/10, Epoch 104/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:29:11,856 | INFO | root 	 Task 1/10, Epoch 105/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:29:19,286 | INFO | root 	 Task 1/10, Epoch 106/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:29:26,711 | INFO | root 	 Task 1/10, Epoch 107/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:29:34,087 | INFO | root 	 Task 1/10, Epoch 108/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:29:42,089 | INFO | root 	 Task 1/10, Epoch 109/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:29:49,471 | INFO | root 	 Task 1/10, Epoch 110/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:29:57,004 | INFO | root 	 Task 1/10, Epoch 111/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:30:04,391 | INFO | root 	 Task 1/10, Epoch 112/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:30:11,745 | INFO | root 	 Task 1/10, Epoch 113/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:30:19,713 | INFO | root 	 Task 1/10, Epoch 114/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:30:27,155 | INFO | root 	 Task 1/10, Epoch 115/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:30:35,053 | INFO | root 	 Task 1/10, Epoch 116/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:30:42,948 | INFO | root 	 Task 1/10, Epoch 117/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:30:50,343 | INFO | root 	 Task 1/10, Epoch 118/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:30:57,811 | INFO | root 	 Task 1/10, Epoch 119/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:31:05,086 | INFO | root 	 Task 1/10, Epoch 120/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:31:12,594 | INFO | root 	 Task 1/10, Epoch 121/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:31:20,158 | INFO | root 	 Task 1/10, Epoch 122/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:31:27,810 | INFO | root 	 Task 1/10, Epoch 123/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:31:35,225 | INFO | root 	 Task 1/10, Epoch 124/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:31:42,450 | INFO | root 	 Task 1/10, Epoch 125/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:31:49,709 | INFO | root 	 Task 1/10, Epoch 126/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:31:56,990 | INFO | root 	 Task 1/10, Epoch 127/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:32:04,386 | INFO | root 	 Task 1/10, Epoch 128/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:32:11,842 | INFO | root 	 Task 1/10, Epoch 129/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:32:19,475 | INFO | root 	 Task 1/10, Epoch 130/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:32:27,087 | INFO | root 	 Task 1/10, Epoch 131/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:32:34,612 | INFO | root 	 Task 1/10, Epoch 132/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:32:42,141 | INFO | root 	 Task 1/10, Epoch 133/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:32:49,620 | INFO | root 	 Task 1/10, Epoch 134/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:32:57,291 | INFO | root 	 Task 1/10, Epoch 135/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:33:04,725 | INFO | root 	 Task 1/10, Epoch 136/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:33:12,315 | INFO | root 	 Task 1/10, Epoch 137/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:33:19,659 | INFO | root 	 Task 1/10, Epoch 138/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:33:27,442 | INFO | root 	 Task 1/10, Epoch 139/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:33:34,989 | INFO | root 	 Task 1/10, Epoch 140/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:33:42,507 | INFO | root 	 Task 1/10, Epoch 141/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+
+ 2022-01-20 13:33:49,808 | INFO | root 	 Task 1/10, Epoch 142/170 => Clf loss: nan Aux loss: nan, Train Accu: 10.0
+Process SyncManager-5:
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7f0e8358c9e0>
+Traceback (most recent call last):
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1328, in __del__
+    self._shutdown_workers()
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1301, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+Traceback (most recent call last):
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/managers.py", line 597, in _run_server
+    server.serve_forever()
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/managers.py", line 173, in serve_forever
+    sys.exit(0)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 115, in exit
+    self._orig_exit(orig_code)
+SystemExit: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/process.py", line 300, in _bootstrap
+    util._exit_function()
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/util.py", line 334, in _exit_function
+    _run_finalizers(0)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/managers.py", line 871, in _decref
+    conn = _Client(token.address, authkey=authkey)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/connection.py", line 498, in Client
+    answer_challenge(c, authkey)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/connection.py", line 747, in answer_challenge
+    response = connection.recv_bytes(256)        # reject large message
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+    if not wait([self.sentinel], timeout):
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt: 
+Traceback (most recent call last):
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/fengjw/solf/codes/base/main.py", line 260, in <module>
+    ex.run_commandline()
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/experiment.py", line 318, in run_commandline
+    options=args,
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/experiment.py", line 276, in run
+    run()
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/run.py", line 238, in __call__
+    self.result = self.main_function(*args)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/config/captured_function.py", line 42, in captured_function
+    result = wrapped(*args, **kwargs)
+  File "/home/fengjw/solf/codes/base/main.py", line 69, in train
+    _train(cfg, _run, ex, tensorboard)

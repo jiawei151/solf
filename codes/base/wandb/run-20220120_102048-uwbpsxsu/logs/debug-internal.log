@@ -1,0 +1,40 @@
+2022-01-20 10:20:50,114 INFO    MainThread:40202 [internal.py:wandb_internal():91] W&B internal server running at pid: 40202, started at: 2022-01-20 10:20:50.110532
+2022-01-20 10:20:50,116 DEBUG   HandlerThread:40202 [handler.py:handle_request():101] handle_request: check_version
+2022-01-20 10:20:50,116 INFO    WriterThread:40202 [datastore.py:open_for_write():77] open: /home/fengjw/solf/codes/base/wandb/run-20220120_102048-uwbpsxsu/run-uwbpsxsu.wandb
+2022-01-20 10:20:50,119 DEBUG   SenderThread:40202 [sender.py:send():161] send: header
+2022-01-20 10:20:50,119 DEBUG   SenderThread:40202 [sender.py:send():161] send: request
+2022-01-20 10:20:50,119 DEBUG   SenderThread:40202 [sender.py:send_request():170] send_request: check_version
+2022-01-20 10:20:50,837 DEBUG   SenderThread:40202 [sender.py:send():161] send: run
+2022-01-20 10:20:50,904 DEBUG   SenderThread:40202 [git.py:repo():33] git repository is invalid
+2022-01-20 10:20:51,622 INFO    SenderThread:40202 [sender.py:_start_run_threads():638] run started: uwbpsxsu with start time 1642645248
+2022-01-20 10:20:51,629 DEBUG   SenderThread:40202 [sender.py:send():161] send: summary
+2022-01-20 10:20:51,636 DEBUG   HandlerThread:40202 [handler.py:handle_request():101] handle_request: run_start
+2022-01-20 10:20:51,644 INFO    SenderThread:40202 [sender.py:_save_file():769] saving file wandb-summary.json with policy end
+2022-01-20 10:20:54,615 DEBUG   HandlerThread:40202 [meta.py:__init__():34] meta init
+2022-01-20 10:20:54,615 DEBUG   HandlerThread:40202 [meta.py:__init__():48] meta init done
+2022-01-20 10:20:54,615 DEBUG   HandlerThread:40202 [meta.py:probe():190] probe
+2022-01-20 10:20:54,622 DEBUG   HandlerThread:40202 [git.py:repo():33] git repository is invalid
+2022-01-20 10:20:54,622 DEBUG   HandlerThread:40202 [meta.py:_save_code():69] save code
+2022-01-20 10:20:54,663 DEBUG   HandlerThread:40202 [meta.py:_save_code():90] save code done
+2022-01-20 10:20:54,664 DEBUG   HandlerThread:40202 [meta.py:_save_pip():52] save pip
+2022-01-20 10:20:54,671 DEBUG   HandlerThread:40202 [meta.py:_save_pip():66] save pip done
+2022-01-20 10:20:54,672 DEBUG   HandlerThread:40202 [meta.py:probe():231] probe done
+2022-01-20 10:20:54,690 DEBUG   SenderThread:40202 [sender.py:send():161] send: files
+2022-01-20 10:20:54,690 INFO    SenderThread:40202 [sender.py:_save_file():769] saving file wandb-metadata.json with policy now
+2022-01-20 10:20:54,692 INFO    SenderThread:40202 [sender.py:_save_file():769] saving file code/main.py with policy now
+2022-01-20 10:20:54,712 DEBUG   HandlerThread:40202 [handler.py:handle_request():101] handle_request: status
+2022-01-20 10:20:54,712 DEBUG   SenderThread:40202 [sender.py:send():161] send: request
+2022-01-20 10:20:54,712 DEBUG   SenderThread:40202 [sender.py:send_request():170] send_request: status
+2022-01-20 10:20:55,420 DEBUG   SenderThread:40202 [sender.py:send():161] send: run
+2022-01-20 10:20:55,473 DEBUG   SenderThread:40202 [git.py:repo():33] git repository is invalid
+2022-01-20 10:20:56,175 INFO    SenderThread:40202 [sender.py:send_run():541] updated run: uwbpsxsu
+2022-01-20 10:21:27,196 DEBUG   HandlerThread:40202 [handler.py:handle_request():101] handle_request: status
+2022-01-20 10:21:27,197 DEBUG   SenderThread:40202 [sender.py:send():161] send: request
+2022-01-20 10:21:27,197 DEBUG   SenderThread:40202 [sender.py:send_request():170] send_request: status
+2022-01-20 10:21:27,538 WARNING MainThread:40202 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2022-01-20 10:21:28,276 WARNING MainThread:40202 [internal.py:wandb_internal():146] Internal process interrupt: 2
+2022-01-20 10:21:28,277 ERROR   MainThread:40202 [internal.py:wandb_internal():149] Internal process interrupted.
+2022-01-20 10:21:28,803 INFO    SenderThread:40202 [sender.py:finish():872] shutting down sender
+2022-01-20 10:21:29,194 INFO    WriterThread:40202 [datastore.py:close():258] close: /home/fengjw/solf/codes/base/wandb/run-20220120_102048-uwbpsxsu/run-uwbpsxsu.wandb
+2022-01-20 10:21:29,206 INFO    HandlerThread:40202 [handler.py:finish():535] shutting down handler
+2022-01-20 10:21:31,917 INFO    MainThread:40202 [internal.py:handle_exit():78] Internal process exited

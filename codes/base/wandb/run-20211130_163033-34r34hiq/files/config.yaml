@@ -1,0 +1,227 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.4
+    code_path: code/main.py
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.9
+    start_time: 1638261033
+    t:
+      1:
+      - 1
+      - 5
+      3:
+      - 16
+      - 17
+      4: 3.7.9
+      5: 0.12.4
+      8:
+      - 5
+aux_n+1:
+  desc: null
+  value: false
+batch_size:
+  desc: null
+  value: 128
+channel:
+  desc: null
+  value: 64
+convnet:
+  desc: null
+  value: resnet18
+coreset_strategy:
+  desc: null
+  value: iCaRL
+data_folder:
+  desc: null
+  value: /home/share/jiawei/solf/data/
+dataset:
+  desc: null
+  value: cifar100
+decouple:
+  desc: null
+  value:
+    enable: true
+    epochs: 50
+    fullset: false
+    lr: 0.05
+    lr_decay: 0.1
+    scheduling:
+    - 15
+    - 30
+    temperature: 5.0
+    weight_decay: 0.0005
+der:
+  desc: null
+  value: false
+device:
+  desc: null
+  value: 0
+display_norm:
+  desc: null
+  value: false
+distillation:
+  desc: null
+  value: none
+dynamic_weight_decay:
+  desc: null
+  value: false
+epochs:
+  desc: null
+  value: 17
+exp:
+  desc: null
+  value:
+    ckptdir: ./logs/
+    debug: true
+    name: newbaselinewoole
+    savedir: ./logs
+    tensorboard_dir: ./tensorboard/
+fixed_memory_per_cls:
+  desc: null
+  value: 20
+increment:
+  desc: null
+  value: 10
+infer_head:
+  desc: null
+  value: softmax
+lambda:
+  desc: null
+  value: 0.1
+last_relu:
+  desc: null
+  value: false
+load_mem:
+  desc: null
+  value: false
+lr:
+  desc: null
+  value: 0.1
+lr_decay:
+  desc: null
+  value: 0.1
+lr_min:
+  desc: null
+  value: 5.0e-05
+max_task:
+  desc: null
+  value: null
+mem_size_mode:
+  desc: null
+  value: uniform_fixed_total_mem
+memory_size:
+  desc: null
+  value: 2000
+model:
+  desc: null
+  value: incmodel
+optimizer:
+  desc: null
+  value: sgd
+postprocessor:
+  desc: null
+  value:
+    batch_size: 128
+    enable: false
+    epochs: 1
+    lr: 0.1
+    lr_decay_factor: 0.1
+    scheduling:
+    - 60
+    - 90
+    - 120
+    type: bic
+    weight_decay: 0.0005
+pretrain:
+  desc: null
+  value:
+    epochs: 200
+    lr: 0.1
+    lr_decay: 0.1
+    scheduling:
+    - 60
+    - 120
+    - 160
+    weight_decay: 0.0005
+random_classes:
+  desc: null
+  value: false
+resampling:
+  desc: null
+  value: false
+reuse_oldfc:
+  desc: null
+  value: false
+save_ckpt:
+  desc: null
+  value: true
+save_mem:
+  desc: null
+  value: true
+scheduler:
+  desc: null
+  value: multistep
+scheduling:
+  desc: null
+  value:
+  - 100
+  - 120
+seed:
+  desc: null
+  value: 1993
+start_class:
+  desc: null
+  value: 0
+start_task:
+  desc: null
+  value: 0
+task_max:
+  desc: null
+  value: 10
+temperature:
+  desc: null
+  value: 2
+train_head:
+  desc: null
+  value: softmax
+trial:
+  desc: null
+  value: 2
+use_aux_cls:
+  desc: null
+  value: false
+use_bias:
+  desc: null
+  value: false
+val_per_n_epoch:
+  desc: null
+  value: -1
+validation:
+  desc: null
+  value: 0
+wandb_name:
+  desc: null
+  value: continual-102
+wandb_run:
+  desc: null
+  value: newbaselinewoole
+warmup:
+  desc: null
+  value: true
+warmup_epochs:
+  desc: null
+  value: 10
+weight_decay:
+  desc: null
+  value: 0.0005
+weight_normalization:
+  desc: null
+  value: false
+workers:
+  desc: null
+  value: 8

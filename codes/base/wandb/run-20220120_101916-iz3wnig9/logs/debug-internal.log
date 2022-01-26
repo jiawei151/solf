@@ -1,0 +1,40 @@
+2022-01-20 10:19:18,060 INFO    MainThread:6072 [internal.py:wandb_internal():91] W&B internal server running at pid: 6072, started at: 2022-01-20 10:19:18.058015
+2022-01-20 10:19:18,061 DEBUG   HandlerThread:6072 [handler.py:handle_request():101] handle_request: check_version
+2022-01-20 10:19:18,062 INFO    WriterThread:6072 [datastore.py:open_for_write():77] open: /home/fengjw/solf/codes/base/wandb/run-20220120_101916-iz3wnig9/run-iz3wnig9.wandb
+2022-01-20 10:19:18,064 DEBUG   SenderThread:6072 [sender.py:send():161] send: header
+2022-01-20 10:19:18,064 DEBUG   SenderThread:6072 [sender.py:send():161] send: request
+2022-01-20 10:19:18,064 DEBUG   SenderThread:6072 [sender.py:send_request():170] send_request: check_version
+2022-01-20 10:19:18,791 DEBUG   SenderThread:6072 [sender.py:send():161] send: run
+2022-01-20 10:19:18,849 DEBUG   SenderThread:6072 [git.py:repo():33] git repository is invalid
+2022-01-20 10:19:19,650 DEBUG   HandlerThread:6072 [handler.py:handle_request():101] handle_request: run_start
+2022-01-20 10:19:19,656 INFO    SenderThread:6072 [sender.py:_start_run_threads():638] run started: iz3wnig9 with start time 1642645157
+2022-01-20 10:19:19,659 DEBUG   SenderThread:6072 [sender.py:send():161] send: summary
+2022-01-20 10:19:19,686 INFO    SenderThread:6072 [sender.py:_save_file():769] saving file wandb-summary.json with policy end
+2022-01-20 10:19:40,642 DEBUG   HandlerThread:6072 [meta.py:__init__():34] meta init
+2022-01-20 10:19:40,642 DEBUG   HandlerThread:6072 [meta.py:__init__():48] meta init done
+2022-01-20 10:19:40,642 DEBUG   HandlerThread:6072 [meta.py:probe():190] probe
+2022-01-20 10:19:40,655 DEBUG   HandlerThread:6072 [git.py:repo():33] git repository is invalid
+2022-01-20 10:19:40,655 DEBUG   HandlerThread:6072 [meta.py:_save_code():69] save code
+2022-01-20 10:19:40,700 DEBUG   HandlerThread:6072 [meta.py:_save_code():90] save code done
+2022-01-20 10:19:40,700 DEBUG   HandlerThread:6072 [meta.py:_save_pip():52] save pip
+2022-01-20 10:19:40,703 DEBUG   HandlerThread:6072 [meta.py:_save_pip():66] save pip done
+2022-01-20 10:19:40,704 DEBUG   HandlerThread:6072 [meta.py:probe():231] probe done
+2022-01-20 10:19:40,712 DEBUG   HandlerThread:6072 [handler.py:handle_request():101] handle_request: status
+2022-01-20 10:19:40,713 DEBUG   SenderThread:6072 [sender.py:send():161] send: request
+2022-01-20 10:19:40,713 DEBUG   SenderThread:6072 [sender.py:send_request():170] send_request: status
+2022-01-20 10:19:41,451 DEBUG   SenderThread:6072 [sender.py:send():161] send: run
+2022-01-20 10:19:41,513 DEBUG   SenderThread:6072 [git.py:repo():33] git repository is invalid
+2022-01-20 10:19:42,229 INFO    SenderThread:6072 [sender.py:send_run():541] updated run: iz3wnig9
+2022-01-20 10:19:42,230 DEBUG   SenderThread:6072 [sender.py:send():161] send: files
+2022-01-20 10:19:42,230 INFO    SenderThread:6072 [sender.py:_save_file():769] saving file wandb-metadata.json with policy now
+2022-01-20 10:19:42,233 INFO    SenderThread:6072 [sender.py:_save_file():769] saving file code/main.py with policy now
+2022-01-20 10:20:05,781 DEBUG   HandlerThread:6072 [handler.py:handle_request():101] handle_request: status
+2022-01-20 10:20:05,789 DEBUG   SenderThread:6072 [sender.py:send():161] send: request
+2022-01-20 10:20:05,789 DEBUG   SenderThread:6072 [sender.py:send_request():170] send_request: status
+2022-01-20 10:20:06,505 WARNING MainThread:6072 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2022-01-20 10:20:08,993 WARNING MainThread:6072 [internal.py:wandb_internal():146] Internal process interrupt: 2
+2022-01-20 10:20:08,993 ERROR   MainThread:6072 [internal.py:wandb_internal():149] Internal process interrupted.
+2022-01-20 10:20:09,458 INFO    SenderThread:6072 [sender.py:finish():872] shutting down sender
+2022-01-20 10:20:09,781 INFO    WriterThread:6072 [datastore.py:close():258] close: /home/fengjw/solf/codes/base/wandb/run-20220120_101916-iz3wnig9/run-iz3wnig9.wandb
+2022-01-20 10:20:09,793 INFO    HandlerThread:6072 [handler.py:finish():535] shutting down handler
+2022-01-20 10:20:12,162 INFO    MainThread:6072 [internal.py:handle_exit():78] Internal process exited

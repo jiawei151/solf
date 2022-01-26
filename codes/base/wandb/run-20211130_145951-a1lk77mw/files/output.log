@@ -1,0 +1,54 @@
+Files already downloaded and verified
+Files already downloaded and verified
+ 2021-11-30 14:59:59,858 | INFO | root 	 classes_order
+ 2021-11-30 14:59:59,859 | INFO | root 	 [[87, 0, 52, 58, 44, 91, 68, 97, 51, 15, 94, 92, 10, 72, 49, 78, 61, 14, 8, 86, 84, 96, 18, 24, 32, 45, 88, 11, 4, 67, 69, 66, 77, 47, 79, 93, 29, 50, 57, 83, 17, 81, 41, 12, 37, 59, 25, 20, 80, 73, 1, 28, 6, 46, 62, 82, 53, 9, 31, 75, 38, 63, 33, 74, 27, 22, 36, 3, 16, 21, 60, 19, 70, 90, 89, 43, 5, 42, 65, 76, 40, 30, 23, 85, 2, 95, 56, 48, 71, 64, 98, 13, 99, 7, 34, 55, 54, 26, 35, 39]]
+ 2021-11-30 15:00:02,644 | INFO | root 	 Begin step 0
+ 2021-11-30 15:00:02,644 | INFO | root 	 Now [200, 200, 200, 200, 200, 200, 200, 200, 200, 200] examplars per class.
+ 2021-11-30 15:00:02,646 | INFO | root 	 Step 0 weight decay 0.00050
+ 2021-11-30 15:00:02,726 | INFO | root 	 Train on 0->10.
+ 2021-11-30 15:00:02,726 | INFO | root 	 nb 5000
+ 2021-11-30 15:00:02,727 | INFO | root 	 Initial trainset: Weight norm per class [1.007]
+warmup
+ 2021-11-30 15:00:04,690 | INFO | root 	 Initial trainset: Feature norm per class [1.394]
+ 2021-11-30 15:00:07,150 | INFO | root 	 Task 1/10, Epoch 1/17 => Clf loss: 2.037 Aux loss: 0.0, Train Accu: 28.26
+ 2021-11-30 15:00:10,309 | INFO | root 	 Task 1/10, Epoch 2/17 => Clf loss: 1.783 Aux loss: 0.0, Train Accu: 37.38
+ 2021-11-30 15:00:13,420 | INFO | root 	 Task 1/10, Epoch 3/17 => Clf loss: 1.688 Aux loss: 0.0, Train Accu: 39.8
+ 2021-11-30 15:00:16,588 | INFO | root 	 Task 1/10, Epoch 4/17 => Clf loss: 1.636 Aux loss: 0.0, Train Accu: 42.26
+ 2021-11-30 15:00:19,755 | INFO | root 	 Task 1/10, Epoch 5/17 => Clf loss: 1.525 Aux loss: 0.0, Train Accu: 46.56
+ 2021-11-30 15:00:22,885 | INFO | root 	 Task 1/10, Epoch 6/17 => Clf loss: 1.465 Aux loss: 0.0, Train Accu: 49.02
+ 2021-11-30 15:00:26,071 | INFO | root 	 Task 1/10, Epoch 7/17 => Clf loss: 1.406 Aux loss: 0.0, Train Accu: 51.38
+ 2021-11-30 15:00:29,260 | INFO | root 	 Task 1/10, Epoch 8/17 => Clf loss: 1.331 Aux loss: 0.0, Train Accu: 55.04
+ 2021-11-30 15:00:32,410 | INFO | root 	 Task 1/10, Epoch 9/17 => Clf loss: 1.179 Aux loss: 0.0, Train Accu: 59.9
+ 2021-11-30 15:00:35,523 | INFO | root 	 Task 1/10, Epoch 10/17 => Clf loss: 1.113 Aux loss: 0.0, Train Accu: 61.36
+ 2021-11-30 15:00:38,677 | INFO | root 	 Task 1/10, Epoch 11/17 => Clf loss: 1.26 Aux loss: 0.0, Train Accu: 56.58
+ 2021-11-30 15:00:41,820 | INFO | root 	 Task 1/10, Epoch 12/17 => Clf loss: 0.995 Aux loss: 0.0, Train Accu: 66.08
+ 2021-11-30 15:00:44,983 | INFO | root 	 Task 1/10, Epoch 13/17 => Clf loss: 0.912 Aux loss: 0.0, Train Accu: 68.26
+ 2021-11-30 15:00:48,122 | INFO | root 	 Task 1/10, Epoch 14/17 => Clf loss: 0.932 Aux loss: 0.0, Train Accu: 67.68
+ 2021-11-30 15:00:51,270 | INFO | root 	 Task 1/10, Epoch 15/17 => Clf loss: 0.803 Aux loss: 0.0, Train Accu: 71.6
+ 2021-11-30 15:00:54,404 | INFO | root 	 Task 1/10, Epoch 16/17 => Clf loss: 0.711 Aux loss: 0.0, Train Accu: 76.96
+ 2021-11-30 15:00:57,547 | INFO | root 	 Task 1/10, Epoch 17/17 => Clf loss: 0.812 Aux loss: 0.0, Train Accu: 72.92
+ema init
+ 2021-11-30 15:00:58,200 | INFO | root 	 After training: Weight norm per class [2.314]
+ 2021-11-30 15:00:59,451 | INFO | root 	 Trainset: Feature norm per class [5.462]
+> /home/share/jiawei/solf/inclearn/models/incmodel.py(489)_after_task()
+-> print(x[j].shape)
+[?2004h(Pdb)
+Traceback (most recent call last):
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/experiment.py", line 318, in run_commandline
+    options=args,
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/experiment.py", line 276, in run
+    run()
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/run.py", line 238, in __call__
+    self.result = self.main_function(*args)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/config/captured_function.py", line 42, in captured_function
+    result = wrapped(*args, **kwargs)
+  File "/home/share/jiawei/solf/codes/base/main.py", line 69, in train
+    _train(cfg, _run, ex, tensorboard)
+  File "/home/share/jiawei/solf/codes/base/main.py", line 121, in _train
+    model.after_task(task_i, inc_dataset)
+  File "/home/share/jiawei/solf/inclearn/models/base.py", line 48, in after_task
+    self._after_task(taski, inc_dataset)
+  File "/home/share/jiawei/solf/inclearn/models/incmodel.py", line 489, in _after_task
+    print(x[j].shape)
+[?2004h(Pdb) [?2004l
+3

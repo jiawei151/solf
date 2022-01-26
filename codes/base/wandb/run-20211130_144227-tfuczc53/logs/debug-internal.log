@@ -1,0 +1,221 @@
+2021-11-30 14:42:30,557 INFO    MainThread:1918696 [internal.py:wandb_internal():89] W&B internal server running at pid: 1918696, started at: 2021-11-30 14:42:30.554579
+2021-11-30 14:42:30,609 INFO    WriterThread:1918696 [datastore.py:open_for_write():77] open: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/run-tfuczc53.wandb
+2021-11-30 14:42:30,610 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: check_version
+2021-11-30 14:42:30,611 DEBUG   SenderThread:1918696 [sender.py:send():185] send: header
+2021-11-30 14:42:30,611 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: check_version
+2021-11-30 14:42:31,290 DEBUG   SenderThread:1918696 [sender.py:send():185] send: run
+2021-11-30 14:42:31,306 DEBUG   SenderThread:1918696 [git.py:repo():33] git repository is invalid
+2021-11-30 14:42:31,572 INFO    SenderThread:1918696 [dir_watcher.py:__init__():169] watching files in: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files
+2021-11-30 14:42:31,572 INFO    SenderThread:1918696 [sender.py:_start_run_threads():749] run started: tfuczc53 with start time 1638254547
+2021-11-30 14:42:31,574 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:42:31,576 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: run_start
+2021-11-30 14:42:31,578 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:42:31,837 DEBUG   HandlerThread:1918696 [meta.py:__init__():40] meta init
+2021-11-30 14:42:31,837 DEBUG   HandlerThread:1918696 [meta.py:__init__():54] meta init done
+2021-11-30 14:42:31,837 DEBUG   HandlerThread:1918696 [meta.py:probe():211] probe
+2021-11-30 14:42:31,847 DEBUG   HandlerThread:1918696 [git.py:repo():33] git repository is invalid
+2021-11-30 14:42:31,847 DEBUG   HandlerThread:1918696 [meta.py:_save_code():90] save code
+2021-11-30 14:42:31,852 DEBUG   HandlerThread:1918696 [meta.py:_save_code():111] save code done
+2021-11-30 14:42:31,852 DEBUG   HandlerThread:1918696 [meta.py:_save_pip():58] save pip
+2021-11-30 14:42:31,864 DEBUG   HandlerThread:1918696 [meta.py:_save_pip():72] save pip done
+2021-11-30 14:42:31,864 DEBUG   HandlerThread:1918696 [meta.py:_save_conda():79] save conda
+2021-11-30 14:42:32,574 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:42:32,574 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/code/main.py
+2021-11-30 14:42:32,574 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/requirements.txt
+2021-11-30 14:42:32,575 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/conda-environment.yaml
+2021-11-30 14:42:32,575 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/code
+2021-11-30 14:42:34,222 DEBUG   HandlerThread:1918696 [meta.py:_save_conda():87] save conda done
+2021-11-30 14:42:34,222 DEBUG   HandlerThread:1918696 [meta.py:probe():249] probe done
+2021-11-30 14:42:34,240 DEBUG   SenderThread:1918696 [sender.py:send():185] send: files
+2021-11-30 14:42:34,241 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-11-30 14:42:34,241 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file code/main.py with policy now
+2021-11-30 14:42:34,246 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:42:34,247 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:42:34,487 DEBUG   SenderThread:1918696 [sender.py:send():185] send: run
+2021-11-30 14:42:34,513 DEBUG   SenderThread:1918696 [git.py:repo():33] git repository is invalid
+2021-11-30 14:42:34,575 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/conda-environment.yaml
+2021-11-30 14:42:34,575 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/config.yaml
+2021-11-30 14:42:34,575 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-metadata.json
+2021-11-30 14:42:34,575 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:42:34,770 INFO    SenderThread:1918696 [sender.py:send_run():643] updated run: tfuczc53
+2021-11-30 14:42:34,875 INFO    Thread-11 :1918696 [upload_job.py:push():137] Uploaded file /tmp/tmp3efz5p47wandb/3pppxuzi-wandb-metadata.json
+2021-11-30 14:42:34,878 INFO    Thread-12 :1918696 [upload_job.py:push():137] Uploaded file /tmp/tmp3efz5p47wandb/2s8rxsjq-code/main.py
+2021-11-30 14:42:36,579 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:42:38,583 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:42:40,588 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:42:42,592 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:42:44,594 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:42:47,432 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:42:47,432 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:42:47,458 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:42:47,596 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:42:48,599 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:42:49,488 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:42:49,488 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:42:50,517 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:42:50,517 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:42:50,532 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:42:50,600 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:42:52,605 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:42:53,659 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:42:53,659 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:42:53,679 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:42:54,608 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:42:54,609 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:42:56,794 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:42:56,794 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:42:56,819 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:42:57,611 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:42:58,613 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:42:59,912 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:42:59,913 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:42:59,919 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:43:00,393 DEBUG   SenderThread:1918696 [sender.py:send():185] send: stats
+2021-11-30 14:43:00,617 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:43:00,617 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:03,015 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:43:03,016 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:43:03,020 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:43:03,619 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:43:04,622 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:04,728 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:43:04,728 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:43:06,156 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:43:06,156 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:43:06,163 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:43:06,626 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:43:06,626 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:09,267 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:43:09,267 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:43:09,278 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:43:09,628 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:43:10,631 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:12,364 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:43:12,364 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:43:12,370 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:43:12,633 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:43:12,633 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:15,452 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:43:15,452 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:43:15,458 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:43:15,634 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:43:16,770 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:18,587 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:43:18,587 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:43:18,609 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:43:18,771 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:43:18,772 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:19,967 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:43:19,967 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:43:21,692 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:43:21,692 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:43:21,717 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:43:21,774 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:43:22,777 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:24,780 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:24,822 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:43:24,822 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:43:24,845 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:43:25,780 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:43:27,913 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:43:27,913 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:43:27,939 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:43:28,785 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:43:28,785 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:30,940 DEBUG   SenderThread:1918696 [sender.py:send():185] send: stats
+2021-11-30 14:43:31,032 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:43:31,033 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:43:31,045 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:43:31,787 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:43:32,790 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:34,131 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:43:34,131 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:43:34,153 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:43:34,794 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:43:34,794 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:35,208 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:43:35,208 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:43:36,798 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:46,808 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:48,812 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:43:50,554 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:43:50,554 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:43:58,846 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:44:01,453 DEBUG   SenderThread:1918696 [sender.py:send():185] send: stats
+2021-11-30 14:44:05,788 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:44:05,788 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:44:21,163 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:44:21,163 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:44:31,959 DEBUG   SenderThread:1918696 [sender.py:send():185] send: stats
+2021-11-30 14:44:36,546 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:44:36,547 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:44:51,926 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:44:51,926 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:45:02,467 DEBUG   SenderThread:1918696 [sender.py:send():185] send: stats
+2021-11-30 14:45:07,309 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:45:07,309 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:45:22,688 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:45:22,688 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:45:32,978 DEBUG   SenderThread:1918696 [sender.py:send():185] send: stats
+2021-11-30 14:45:37,963 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:45:37,963 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:45:53,232 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:45:53,232 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:46:03,515 DEBUG   SenderThread:1918696 [sender.py:send():185] send: stats
+2021-11-30 14:46:08,498 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:46:08,499 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:46:23,772 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:46:23,772 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:46:34,026 DEBUG   SenderThread:1918696 [sender.py:send():185] send: stats
+2021-11-30 14:46:39,039 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:46:39,039 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:46:54,277 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:46:54,277 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:47:04,537 DEBUG   SenderThread:1918696 [sender.py:send():185] send: stats
+2021-11-30 14:47:09,514 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:47:09,514 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:47:24,748 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:47:24,748 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:47:35,041 DEBUG   SenderThread:1918696 [sender.py:send():185] send: stats
+2021-11-30 14:47:39,981 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:47:39,981 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:47:55,218 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:47:55,219 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:48:05,556 DEBUG   SenderThread:1918696 [sender.py:send():185] send: stats
+2021-11-30 14:48:10,457 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:48:10,457 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:48:25,692 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:48:25,692 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:48:36,069 DEBUG   SenderThread:1918696 [sender.py:send():185] send: stats
+2021-11-30 14:48:40,923 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:48:40,923 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:48:56,157 DEBUG   HandlerThread:1918696 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:48:56,157 DEBUG   SenderThread:1918696 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:49:00,713 DEBUG   SenderThread:1918696 [sender.py:send():185] send: history
+2021-11-30 14:49:00,713 DEBUG   SenderThread:1918696 [sender.py:send():185] send: summary
+2021-11-30 14:49:00,745 INFO    SenderThread:1918696 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:49:00,996 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:49:01,985 WARNING MainThread:1918696 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-11-30 14:49:01,999 INFO    Thread-8  :1918696 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:49:03,987 WARNING MainThread:1918696 [internal.py:is_dead():365] Internal process exiting, parent pid 1918586 disappeared
+2021-11-30 14:49:03,987 ERROR   MainThread:1918696 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-11-30 14:49:04,849 INFO    SenderThread:1918696 [sender.py:finish():986] shutting down sender
+2021-11-30 14:49:04,849 INFO    WriterThread:1918696 [datastore.py:close():281] close: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/run-tfuczc53.wandb
+2021-11-30 14:49:04,849 INFO    SenderThread:1918696 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-11-30 14:49:04,852 INFO    HandlerThread:1918696 [handler.py:finish():683] shutting down handler
+2021-11-30 14:49:05,000 INFO    SenderThread:1918696 [dir_watcher.py:finish():313] scan: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files
+2021-11-30 14:49:05,000 INFO    SenderThread:1918696 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-metadata.json wandb-metadata.json
+2021-11-30 14:49:05,000 INFO    SenderThread:1918696 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/requirements.txt requirements.txt
+2021-11-30 14:49:05,000 INFO    SenderThread:1918696 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json wandb-summary.json
+2021-11-30 14:49:05,005 INFO    SenderThread:1918696 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/config.yaml config.yaml
+2021-11-30 14:49:05,005 INFO    SenderThread:1918696 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log output.log
+2021-11-30 14:49:05,005 INFO    SenderThread:1918696 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/conda-environment.yaml conda-environment.yaml
+2021-11-30 14:49:05,018 INFO    SenderThread:1918696 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/code/main.py code/main.py
+2021-11-30 14:49:05,019 INFO    SenderThread:1918696 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-30 14:49:05,019 INFO    SenderThread:1918696 [file_pusher.py:join():182] waiting for file pusher
+2021-11-30 14:49:05,590 INFO    Thread-13 :1918696 [upload_job.py:push():137] Uploaded file /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/requirements.txt
+2021-11-30 14:49:05,611 INFO    Thread-14 :1918696 [upload_job.py:push():137] Uploaded file /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/wandb-summary.json
+2021-11-30 14:49:05,614 INFO    Thread-16 :1918696 [upload_job.py:push():137] Uploaded file /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/output.log
+2021-11-30 14:49:05,631 INFO    Thread-17 :1918696 [upload_job.py:push():137] Uploaded file /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/conda-environment.yaml
+2021-11-30 14:49:05,700 INFO    Thread-15 :1918696 [upload_job.py:push():137] Uploaded file /home/share/jiawei/solf/codes/base/wandb/run-20211130_144227-tfuczc53/files/config.yaml
+2021-11-30 14:49:06,462 INFO    MainThread:1918696 [internal.py:handle_exit():76] Internal process exited

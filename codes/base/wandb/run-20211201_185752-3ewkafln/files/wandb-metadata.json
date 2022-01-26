@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.8.0-43-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.9",
+    "heartbeatAt": "2021-12-01T10:57:58.040791",
+    "startedAt": "2021-12-01T10:57:52.692088",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 8,
+    "cpu_count": 64,
+    "cuda": null,
+    "args": [
+        "train",
+        "with",
+        "./configs/2.yaml",
+        "exp.name=newbaseline_ttrans_trainbn",
+        "exp.savedir=./logs/",
+        "exp.ckptdir=./logs/",
+        "exp.tensorboard_dir=./tensorboard/",
+        "exp.debug=True",
+        "--name=newbaseline_ttrans_trainbn",
+        "-D",
+        "-p",
+        "--force"
+    ],
+    "state": "running",
+    "program": "/home/share/jiawei/solf/codes/base/main.py",
+    "codePath": "main.py",
+    "host": "compute001",
+    "username": "jiawei",
+    "executable": "/home/share/jiawei/anaconda3/envs/torch3090/bin/python"
+}

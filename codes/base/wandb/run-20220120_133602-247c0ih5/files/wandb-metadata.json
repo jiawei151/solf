@@ -1,0 +1,31 @@
+{
+    "os": "Linux-4.15.0-45-generic-x86_64-with-debian-stretch-sid",
+    "python": "3.7.9",
+    "heartbeatAt": "2022-01-20T05:36:08.590043",
+    "startedAt": "2022-01-20T05:36:02.641508",
+    "docker": null,
+    "gpu": "GeForce RTX 3090",
+    "gpu_count": 8,
+    "cpu_count": 64,
+    "cuda": null,
+    "args": [
+        "train",
+        "with",
+        "./configs/2.yaml",
+        "exp.name=base2022",
+        "exp.savedir=./logs/",
+        "exp.ckptdir=./logs/",
+        "exp.tensorboard_dir=./tensorboard/",
+        "exp.debug=True",
+        "--name=base2022",
+        "-D",
+        "-p",
+        "--force"
+    ],
+    "state": "running",
+    "program": "/home/fengjw/solf/codes/base/main.py",
+    "codePath": "main.py",
+    "host": "Mars",
+    "username": "fengjw",
+    "executable": "/home/fengjw/anaconda3/envs/torch3090/bin/python"
+}

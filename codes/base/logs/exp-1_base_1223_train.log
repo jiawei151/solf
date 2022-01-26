@@ -1,0 +1,394 @@
+
+ 2021-12-23 09:24:35,933 | INFO | root 	 {'exp': {'name': 'base_1223', 'savedir': './logs', 'tensorboard_dir': './tensorboard/', 'debug': True, 'ckptdir': './logs/'}, 'model': 'incmodel', 'convnet': 'resnet18', 'train_head': 'softmax', 'infer_head': 'softmax', 'channel': 64, 'use_bias': False, 'last_relu': False, 'der': False, 'use_aux_cls': False, 'aux_n+1': False, 'distillation': 'none', 'reuse_oldfc': False, 'weight_normalization': False, 'val_per_n_epoch': -1, 'save_ckpt': True, 'display_norm': False, 'task_max': 10, 'lr_min': 5e-05, 'lr': 0.1, 'weight_decay': 0.0005, 'dynamic_weight_decay': False, 'scheduler': 'multistep', 'scheduling': [100, 120], 'lr_decay': 0.1, 'optimizer': 'sgd', 'epochs': 170, 'postprocessor': {'enable': False, 'type': 'bic', 'epochs': 1, 'batch_size': 128, 'lr': 0.1, 'scheduling': [60, 90, 120], 'lr_decay_factor': 0.1, 'weight_decay': 0.0005}, 'decouple': {'enable': True, 'epochs': 50, 'fullset': False, 'lr': 0.05, 'scheduling': [15, 30], 'lr_decay': 0.1, 'weight_decay': 0.0005, 'temperature': 5.0}, 'dataset': 'cifar100', 'trial': 2, 'increment': 10, 'batch_size': 128, 'workers': 8, 'validation': 0, 'random_classes': False, 'start_class': 0, 'start_task': 0, 'max_task': None, 'coreset_strategy': 'iCaRL', 'mem_size_mode': 'uniform_fixed_total_mem', 'memory_size': 2000, 'fixed_memory_per_cls': 20, 'device': 0, 'seed': 1993, 'data_folder': '/home/fengjw/solf/data/', 'lambda': 0.1, 'load_mem': False, 'pretrain': {'epochs': 200, 'lr': 0.1, 'lr_decay': 0.1, 'scheduling': [60, 120, 160], 'weight_decay': 0.0005}, 'resampling': False, 'save_mem': True, 'temperature': 2, 'wandb_name': 'continual-102', 'wandb_run': 'ema_ttrans_start_trainbn', 'warmup': True, 'warmup_epochs': 10}
+
+ 2021-12-23 09:24:49,475 | INFO | root 	 classes_order
+
+ 2021-12-23 09:24:49,476 | INFO | root 	 [[87, 0, 52, 58, 44, 91, 68, 97, 51, 15, 94, 92, 10, 72, 49, 78, 61, 14, 8, 86, 84, 96, 18, 24, 32, 45, 88, 11, 4, 67, 69, 66, 77, 47, 79, 93, 29, 50, 57, 83, 17, 81, 41, 12, 37, 59, 25, 20, 80, 73, 1, 28, 6, 46, 62, 82, 53, 9, 31, 75, 38, 63, 33, 74, 27, 22, 36, 3, 16, 21, 60, 19, 70, 90, 89, 43, 5, 42, 65, 76, 40, 30, 23, 85, 2, 95, 56, 48, 71, 64, 98, 13, 99, 7, 34, 55, 54, 26, 35, 39]]
+
+ 2021-12-23 09:24:55,288 | INFO | root 	 Begin step 0
+
+ 2021-12-23 09:24:55,289 | INFO | root 	 Now [200, 200, 200, 200, 200, 200, 200, 200, 200, 200] examplars per class.
+
+ 2021-12-23 09:24:55,293 | INFO | root 	 Step 0 weight decay 0.00050
+
+ 2021-12-23 09:24:55,399 | INFO | root 	 Train on 0->10.
+
+ 2021-12-23 09:24:55,400 | INFO | root 	 nb 5000
+
+ 2021-12-23 09:24:55,402 | INFO | root 	 Initial trainset: Weight norm per class [1.007]
+
+ 2021-12-23 09:24:57,453 | INFO | root 	 Initial trainset: Feature norm per class [1.394]
+
+ 2021-12-23 09:25:00,091 | INFO | root 	 Task 1/10, Epoch 1/170 => Clf loss: 2.037 Aux loss: 0.0, Train Accu: 28.24
+
+ 2021-12-23 09:25:04,014 | INFO | root 	 Task 1/10, Epoch 2/170 => Clf loss: 1.783 Aux loss: 0.0, Train Accu: 38.26
+
+ 2021-12-23 09:25:07,760 | INFO | root 	 Task 1/10, Epoch 3/170 => Clf loss: 1.697 Aux loss: 0.0, Train Accu: 39.68
+
+ 2021-12-23 09:25:11,563 | INFO | root 	 Task 1/10, Epoch 4/170 => Clf loss: 1.626 Aux loss: 0.0, Train Accu: 42.7
+
+ 2021-12-23 09:25:15,320 | INFO | root 	 Task 1/10, Epoch 5/170 => Clf loss: 1.507 Aux loss: 0.0, Train Accu: 47.6
+
+ 2021-12-23 09:25:18,992 | INFO | root 	 Task 1/10, Epoch 6/170 => Clf loss: 1.478 Aux loss: 0.0, Train Accu: 48.36
+
+ 2021-12-23 09:25:22,873 | INFO | root 	 Task 1/10, Epoch 7/170 => Clf loss: 1.416 Aux loss: 0.0, Train Accu: 51.38
+
+ 2021-12-23 09:25:26,748 | INFO | root 	 Task 1/10, Epoch 8/170 => Clf loss: 1.333 Aux loss: 0.0, Train Accu: 54.28
+
+ 2021-12-23 09:25:30,769 | INFO | root 	 Task 1/10, Epoch 9/170 => Clf loss: 1.179 Aux loss: 0.0, Train Accu: 60.14
+
+ 2021-12-23 09:25:34,507 | INFO | root 	 Task 1/10, Epoch 10/170 => Clf loss: 1.112 Aux loss: 0.0, Train Accu: 61.68
+
+ 2021-12-23 09:25:38,265 | INFO | root 	 Task 1/10, Epoch 11/170 => Clf loss: 1.254 Aux loss: 0.0, Train Accu: 56.06
+
+ 2021-12-23 09:25:42,105 | INFO | root 	 Task 1/10, Epoch 12/170 => Clf loss: 0.974 Aux loss: 0.0, Train Accu: 66.98
+
+ 2021-12-23 09:25:45,869 | INFO | root 	 Task 1/10, Epoch 13/170 => Clf loss: 0.9 Aux loss: 0.0, Train Accu: 69.2
+
+ 2021-12-23 09:25:49,680 | INFO | root 	 Task 1/10, Epoch 14/170 => Clf loss: 0.901 Aux loss: 0.0, Train Accu: 68.86
+
+ 2021-12-23 09:25:53,394 | INFO | root 	 Task 1/10, Epoch 15/170 => Clf loss: 0.744 Aux loss: 0.0, Train Accu: 74.2
+
+ 2021-12-23 09:25:57,158 | INFO | root 	 Task 1/10, Epoch 16/170 => Clf loss: 0.685 Aux loss: 0.0, Train Accu: 76.86
+
+ 2021-12-23 09:26:01,121 | INFO | root 	 Task 1/10, Epoch 17/170 => Clf loss: 0.74 Aux loss: 0.0, Train Accu: 75.56
+
+ 2021-12-23 09:26:05,012 | INFO | root 	 Task 1/10, Epoch 18/170 => Clf loss: 0.633 Aux loss: 0.0, Train Accu: 79.36
+
+ 2021-12-23 09:26:09,071 | INFO | root 	 Task 1/10, Epoch 19/170 => Clf loss: 0.659 Aux loss: 0.0, Train Accu: 78.4
+
+ 2021-12-23 09:26:12,845 | INFO | root 	 Task 1/10, Epoch 20/170 => Clf loss: 0.59 Aux loss: 0.0, Train Accu: 80.32
+
+ 2021-12-23 09:26:16,884 | INFO | root 	 Task 1/10, Epoch 21/170 => Clf loss: 0.593 Aux loss: 0.0, Train Accu: 79.78
+
+ 2021-12-23 09:26:20,632 | INFO | root 	 Task 1/10, Epoch 22/170 => Clf loss: 0.552 Aux loss: 0.0, Train Accu: 82.48
+
+ 2021-12-23 09:26:24,620 | INFO | root 	 Task 1/10, Epoch 23/170 => Clf loss: 0.582 Aux loss: 0.0, Train Accu: 80.08
+
+ 2021-12-23 09:26:28,348 | INFO | root 	 Task 1/10, Epoch 24/170 => Clf loss: 0.496 Aux loss: 0.0, Train Accu: 83.12
+
+ 2021-12-23 09:26:32,546 | INFO | root 	 Task 1/10, Epoch 25/170 => Clf loss: 0.528 Aux loss: 0.0, Train Accu: 82.32
+
+ 2021-12-23 09:26:36,555 | INFO | root 	 Task 1/10, Epoch 26/170 => Clf loss: 0.465 Aux loss: 0.0, Train Accu: 84.18
+
+ 2021-12-23 09:26:40,522 | INFO | root 	 Task 1/10, Epoch 27/170 => Clf loss: 0.468 Aux loss: 0.0, Train Accu: 84.5
+
+ 2021-12-23 09:26:44,266 | INFO | root 	 Task 1/10, Epoch 28/170 => Clf loss: 0.502 Aux loss: 0.0, Train Accu: 83.38
+
+ 2021-12-23 09:26:48,161 | INFO | root 	 Task 1/10, Epoch 29/170 => Clf loss: 0.393 Aux loss: 0.0, Train Accu: 87.2
+
+ 2021-12-23 09:26:52,185 | INFO | root 	 Task 1/10, Epoch 30/170 => Clf loss: 0.398 Aux loss: 0.0, Train Accu: 85.98
+
+ 2021-12-23 09:26:56,111 | INFO | root 	 Task 1/10, Epoch 31/170 => Clf loss: 0.372 Aux loss: 0.0, Train Accu: 87.3
+
+ 2021-12-23 09:26:59,946 | INFO | root 	 Task 1/10, Epoch 32/170 => Clf loss: 0.438 Aux loss: 0.0, Train Accu: 85.4
+
+ 2021-12-23 09:27:03,674 | INFO | root 	 Task 1/10, Epoch 33/170 => Clf loss: 0.385 Aux loss: 0.0, Train Accu: 87.46
+
+ 2021-12-23 09:27:07,757 | INFO | root 	 Task 1/10, Epoch 34/170 => Clf loss: 0.375 Aux loss: 0.0, Train Accu: 87.14
+
+ 2021-12-23 09:27:11,511 | INFO | root 	 Task 1/10, Epoch 35/170 => Clf loss: 0.291 Aux loss: 0.0, Train Accu: 90.26
+
+ 2021-12-23 09:27:15,237 | INFO | root 	 Task 1/10, Epoch 36/170 => Clf loss: 0.289 Aux loss: 0.0, Train Accu: 89.72
+
+ 2021-12-23 09:27:19,063 | INFO | root 	 Task 1/10, Epoch 37/170 => Clf loss: 0.303 Aux loss: 0.0, Train Accu: 89.9
+
+ 2021-12-23 09:27:22,877 | INFO | root 	 Task 1/10, Epoch 38/170 => Clf loss: 0.318 Aux loss: 0.0, Train Accu: 89.2
+
+ 2021-12-23 09:27:26,630 | INFO | root 	 Task 1/10, Epoch 39/170 => Clf loss: 0.282 Aux loss: 0.0, Train Accu: 90.62
+
+ 2021-12-23 09:27:30,350 | INFO | root 	 Task 1/10, Epoch 40/170 => Clf loss: 0.495 Aux loss: 0.0, Train Accu: 83.78
+
+ 2021-12-23 09:27:34,138 | INFO | root 	 Task 1/10, Epoch 41/170 => Clf loss: 0.41 Aux loss: 0.0, Train Accu: 86.64
+
+ 2021-12-23 09:27:38,051 | INFO | root 	 Task 1/10, Epoch 42/170 => Clf loss: 0.446 Aux loss: 0.0, Train Accu: 85.96
+
+ 2021-12-23 09:27:41,777 | INFO | root 	 Task 1/10, Epoch 43/170 => Clf loss: 0.364 Aux loss: 0.0, Train Accu: 88.02
+
+ 2021-12-23 09:27:45,492 | INFO | root 	 Task 1/10, Epoch 44/170 => Clf loss: 0.306 Aux loss: 0.0, Train Accu: 89.36
+
+ 2021-12-23 09:27:49,187 | INFO | root 	 Task 1/10, Epoch 45/170 => Clf loss: 0.292 Aux loss: 0.0, Train Accu: 90.4
+
+ 2021-12-23 09:27:53,219 | INFO | root 	 Task 1/10, Epoch 46/170 => Clf loss: 0.36 Aux loss: 0.0, Train Accu: 87.74
+
+ 2021-12-23 09:27:56,919 | INFO | root 	 Task 1/10, Epoch 47/170 => Clf loss: 0.345 Aux loss: 0.0, Train Accu: 88.9
+
+ 2021-12-23 09:28:00,996 | INFO | root 	 Task 1/10, Epoch 48/170 => Clf loss: 0.283 Aux loss: 0.0, Train Accu: 91.42
+
+ 2021-12-23 09:28:04,766 | INFO | root 	 Task 1/10, Epoch 49/170 => Clf loss: 0.33 Aux loss: 0.0, Train Accu: 88.88
+
+ 2021-12-23 09:28:08,574 | INFO | root 	 Task 1/10, Epoch 50/170 => Clf loss: 0.34 Aux loss: 0.0, Train Accu: 89.12
+
+ 2021-12-23 09:28:12,582 | INFO | root 	 Task 1/10, Epoch 51/170 => Clf loss: 0.33 Aux loss: 0.0, Train Accu: 88.5
+
+ 2021-12-23 09:28:16,380 | INFO | root 	 Task 1/10, Epoch 52/170 => Clf loss: 0.26 Aux loss: 0.0, Train Accu: 91.44
+
+ 2021-12-23 09:28:20,483 | INFO | root 	 Task 1/10, Epoch 53/170 => Clf loss: 0.336 Aux loss: 0.0, Train Accu: 88.64
+
+ 2021-12-23 09:28:24,471 | INFO | root 	 Task 1/10, Epoch 54/170 => Clf loss: 0.261 Aux loss: 0.0, Train Accu: 91.3
+
+ 2021-12-23 09:28:28,479 | INFO | root 	 Task 1/10, Epoch 55/170 => Clf loss: 0.27 Aux loss: 0.0, Train Accu: 90.44
+
+ 2021-12-23 09:28:32,660 | INFO | root 	 Task 1/10, Epoch 56/170 => Clf loss: 0.2 Aux loss: 0.0, Train Accu: 93.6
+
+ 2021-12-23 09:28:36,392 | INFO | root 	 Task 1/10, Epoch 57/170 => Clf loss: 0.426 Aux loss: 0.0, Train Accu: 86.76
+
+ 2021-12-23 09:28:40,393 | INFO | root 	 Task 1/10, Epoch 58/170 => Clf loss: 0.368 Aux loss: 0.0, Train Accu: 87.5
+
+ 2021-12-23 09:28:44,176 | INFO | root 	 Task 1/10, Epoch 59/170 => Clf loss: 0.247 Aux loss: 0.0, Train Accu: 91.68
+
+ 2021-12-23 09:28:48,057 | INFO | root 	 Task 1/10, Epoch 60/170 => Clf loss: 0.262 Aux loss: 0.0, Train Accu: 91.64
+
+ 2021-12-23 09:28:51,807 | INFO | root 	 Task 1/10, Epoch 61/170 => Clf loss: 0.268 Aux loss: 0.0, Train Accu: 90.82
+
+ 2021-12-23 09:28:55,579 | INFO | root 	 Task 1/10, Epoch 62/170 => Clf loss: 0.176 Aux loss: 0.0, Train Accu: 94.12
+
+ 2021-12-23 09:28:59,330 | INFO | root 	 Task 1/10, Epoch 63/170 => Clf loss: 0.169 Aux loss: 0.0, Train Accu: 95.1
+
+ 2021-12-23 09:29:03,336 | INFO | root 	 Task 1/10, Epoch 64/170 => Clf loss: 0.241 Aux loss: 0.0, Train Accu: 92.68
+
+ 2021-12-23 09:29:07,214 | INFO | root 	 Task 1/10, Epoch 65/170 => Clf loss: 0.28 Aux loss: 0.0, Train Accu: 91.08
+
+ 2021-12-23 09:29:11,060 | INFO | root 	 Task 1/10, Epoch 66/170 => Clf loss: 0.36 Aux loss: 0.0, Train Accu: 88.2
+
+ 2021-12-23 09:29:14,863 | INFO | root 	 Task 1/10, Epoch 67/170 => Clf loss: 0.253 Aux loss: 0.0, Train Accu: 92.08
+
+ 2021-12-23 09:29:18,577 | INFO | root 	 Task 1/10, Epoch 68/170 => Clf loss: 0.264 Aux loss: 0.0, Train Accu: 91.16
+
+ 2021-12-23 09:29:22,324 | INFO | root 	 Task 1/10, Epoch 69/170 => Clf loss: 0.222 Aux loss: 0.0, Train Accu: 92.64
+
+ 2021-12-23 09:29:26,085 | INFO | root 	 Task 1/10, Epoch 70/170 => Clf loss: 0.283 Aux loss: 0.0, Train Accu: 90.46
+
+ 2021-12-23 09:29:29,948 | INFO | root 	 Task 1/10, Epoch 71/170 => Clf loss: 0.279 Aux loss: 0.0, Train Accu: 91.82
+
+ 2021-12-23 09:29:34,082 | INFO | root 	 Task 1/10, Epoch 72/170 => Clf loss: 0.223 Aux loss: 0.0, Train Accu: 92.56
+
+ 2021-12-23 09:29:37,975 | INFO | root 	 Task 1/10, Epoch 73/170 => Clf loss: 0.237 Aux loss: 0.0, Train Accu: 92.26
+
+ 2021-12-23 09:29:42,139 | INFO | root 	 Task 1/10, Epoch 74/170 => Clf loss: 0.192 Aux loss: 0.0, Train Accu: 94.46
+
+ 2021-12-23 09:29:46,224 | INFO | root 	 Task 1/10, Epoch 75/170 => Clf loss: 0.335 Aux loss: 0.0, Train Accu: 88.66
+
+ 2021-12-23 09:29:49,950 | INFO | root 	 Task 1/10, Epoch 76/170 => Clf loss: 0.197 Aux loss: 0.0, Train Accu: 93.76
+
+ 2021-12-23 09:29:53,785 | INFO | root 	 Task 1/10, Epoch 77/170 => Clf loss: 0.159 Aux loss: 0.0, Train Accu: 94.72
+
+ 2021-12-23 09:29:57,524 | INFO | root 	 Task 1/10, Epoch 78/170 => Clf loss: 0.169 Aux loss: 0.0, Train Accu: 94.12
+
+ 2021-12-23 09:30:01,315 | INFO | root 	 Task 1/10, Epoch 79/170 => Clf loss: 0.127 Aux loss: 0.0, Train Accu: 96.04
+
+ 2021-12-23 09:30:05,038 | INFO | root 	 Task 1/10, Epoch 80/170 => Clf loss: 0.142 Aux loss: 0.0, Train Accu: 96.18
+
+ 2021-12-23 09:30:08,981 | INFO | root 	 Task 1/10, Epoch 81/170 => Clf loss: 0.352 Aux loss: 0.0, Train Accu: 88.28
+
+ 2021-12-23 09:30:12,883 | INFO | root 	 Task 1/10, Epoch 82/170 => Clf loss: 0.235 Aux loss: 0.0, Train Accu: 92.8
+
+ 2021-12-23 09:30:16,773 | INFO | root 	 Task 1/10, Epoch 83/170 => Clf loss: 0.276 Aux loss: 0.0, Train Accu: 90.74
+
+ 2021-12-23 09:30:20,667 | INFO | root 	 Task 1/10, Epoch 84/170 => Clf loss: 0.268 Aux loss: 0.0, Train Accu: 91.94
+
+ 2021-12-23 09:30:24,532 | INFO | root 	 Task 1/10, Epoch 85/170 => Clf loss: 0.203 Aux loss: 0.0, Train Accu: 93.28
+
+ 2021-12-23 09:30:28,574 | INFO | root 	 Task 1/10, Epoch 86/170 => Clf loss: 0.128 Aux loss: 0.0, Train Accu: 95.56
+
+ 2021-12-23 09:30:32,368 | INFO | root 	 Task 1/10, Epoch 87/170 => Clf loss: 0.23 Aux loss: 0.0, Train Accu: 92.84
+
+ 2021-12-23 09:30:36,305 | INFO | root 	 Task 1/10, Epoch 88/170 => Clf loss: 0.212 Aux loss: 0.0, Train Accu: 92.7
+
+ 2021-12-23 09:30:40,269 | INFO | root 	 Task 1/10, Epoch 89/170 => Clf loss: 0.112 Aux loss: 0.0, Train Accu: 96.6
+
+ 2021-12-23 09:30:44,466 | INFO | root 	 Task 1/10, Epoch 90/170 => Clf loss: 0.152 Aux loss: 0.0, Train Accu: 95.02
+
+ 2021-12-23 09:30:48,762 | INFO | root 	 Task 1/10, Epoch 91/170 => Clf loss: 0.149 Aux loss: 0.0, Train Accu: 95.48
+
+ 2021-12-23 09:30:52,920 | INFO | root 	 Task 1/10, Epoch 92/170 => Clf loss: 0.166 Aux loss: 0.0, Train Accu: 94.44
+
+ 2021-12-23 09:30:56,678 | INFO | root 	 Task 1/10, Epoch 93/170 => Clf loss: 0.142 Aux loss: 0.0, Train Accu: 95.58
+
+ 2021-12-23 09:31:00,611 | INFO | root 	 Task 1/10, Epoch 94/170 => Clf loss: 0.183 Aux loss: 0.0, Train Accu: 93.82
+
+ 2021-12-23 09:31:04,471 | INFO | root 	 Task 1/10, Epoch 95/170 => Clf loss: 0.124 Aux loss: 0.0, Train Accu: 95.68
+
+ 2021-12-23 09:31:08,456 | INFO | root 	 Task 1/10, Epoch 96/170 => Clf loss: 0.121 Aux loss: 0.0, Train Accu: 96.76
+
+ 2021-12-23 09:31:12,259 | INFO | root 	 Task 1/10, Epoch 97/170 => Clf loss: 0.296 Aux loss: 0.0, Train Accu: 89.98
+
+ 2021-12-23 09:31:15,996 | INFO | root 	 Task 1/10, Epoch 98/170 => Clf loss: 0.195 Aux loss: 0.0, Train Accu: 93.46
+
+ 2021-12-23 09:31:19,774 | INFO | root 	 Task 1/10, Epoch 99/170 => Clf loss: 0.217 Aux loss: 0.0, Train Accu: 93.14
+
+ 2021-12-23 09:31:23,510 | INFO | root 	 Task 1/10, Epoch 100/170 => Clf loss: 0.181 Aux loss: 0.0, Train Accu: 93.78
+
+ 2021-12-23 09:31:27,253 | INFO | root 	 Task 1/10, Epoch 101/170 => Clf loss: 0.116 Aux loss: 0.0, Train Accu: 96.32
+
+ 2021-12-23 09:31:31,040 | INFO | root 	 Task 1/10, Epoch 102/170 => Clf loss: 0.223 Aux loss: 0.0, Train Accu: 92.3
+
+ 2021-12-23 09:31:34,821 | INFO | root 	 Task 1/10, Epoch 103/170 => Clf loss: 0.131 Aux loss: 0.0, Train Accu: 95.86
+
+ 2021-12-23 09:31:38,746 | INFO | root 	 Task 1/10, Epoch 104/170 => Clf loss: 0.124 Aux loss: 0.0, Train Accu: 95.78
+
+ 2021-12-23 09:31:42,971 | INFO | root 	 Task 1/10, Epoch 105/170 => Clf loss: 0.144 Aux loss: 0.0, Train Accu: 95.22
+
+ 2021-12-23 09:31:46,762 | INFO | root 	 Task 1/10, Epoch 106/170 => Clf loss: 0.11 Aux loss: 0.0, Train Accu: 96.42
+
+ 2021-12-23 09:31:50,566 | INFO | root 	 Task 1/10, Epoch 107/170 => Clf loss: 0.104 Aux loss: 0.0, Train Accu: 96.32
+
+ 2021-12-23 09:31:54,880 | INFO | root 	 Task 1/10, Epoch 108/170 => Clf loss: 0.179 Aux loss: 0.0, Train Accu: 93.46
+
+ 2021-12-23 09:31:58,898 | INFO | root 	 Task 1/10, Epoch 109/170 => Clf loss: 0.124 Aux loss: 0.0, Train Accu: 96.72
+
+ 2021-12-23 09:32:02,675 | INFO | root 	 Task 1/10, Epoch 110/170 => Clf loss: 0.138 Aux loss: 0.0, Train Accu: 95.2
+
+ 2021-12-23 09:32:06,366 | INFO | root 	 Task 1/10, Epoch 111/170 => Clf loss: 0.082 Aux loss: 0.0, Train Accu: 97.36
+
+ 2021-12-23 09:32:10,188 | INFO | root 	 Task 1/10, Epoch 112/170 => Clf loss: 0.04 Aux loss: 0.0, Train Accu: 98.9
+
+ 2021-12-23 09:32:13,858 | INFO | root 	 Task 1/10, Epoch 113/170 => Clf loss: 0.034 Aux loss: 0.0, Train Accu: 99.3
+
+ 2021-12-23 09:32:17,848 | INFO | root 	 Task 1/10, Epoch 114/170 => Clf loss: 0.031 Aux loss: 0.0, Train Accu: 99.5
+
+ 2021-12-23 09:32:21,704 | INFO | root 	 Task 1/10, Epoch 115/170 => Clf loss: 0.032 Aux loss: 0.0, Train Accu: 99.32
+
+ 2021-12-23 09:32:25,485 | INFO | root 	 Task 1/10, Epoch 116/170 => Clf loss: 0.027 Aux loss: 0.0, Train Accu: 99.6
+
+ 2021-12-23 09:32:29,213 | INFO | root 	 Task 1/10, Epoch 117/170 => Clf loss: 0.025 Aux loss: 0.0, Train Accu: 99.38
+
+ 2021-12-23 09:32:33,208 | INFO | root 	 Task 1/10, Epoch 118/170 => Clf loss: 0.049 Aux loss: 0.0, Train Accu: 99.68
+
+ 2021-12-23 09:32:36,929 | INFO | root 	 Task 1/10, Epoch 119/170 => Clf loss: 0.045 Aux loss: 0.0, Train Accu: 99.52
+
+ 2021-12-23 09:32:40,670 | INFO | root 	 Task 1/10, Epoch 120/170 => Clf loss: 0.033 Aux loss: 0.0, Train Accu: 99.24
+
+ 2021-12-23 09:32:44,533 | INFO | root 	 Task 1/10, Epoch 121/170 => Clf loss: 0.025 Aux loss: 0.0, Train Accu: 99.3
+
+ 2021-12-23 09:32:48,311 | INFO | root 	 Task 1/10, Epoch 122/170 => Clf loss: 0.021 Aux loss: 0.0, Train Accu: 99.66
+
+ 2021-12-23 09:32:52,046 | INFO | root 	 Task 1/10, Epoch 123/170 => Clf loss: 0.018 Aux loss: 0.0, Train Accu: 99.7
+
+ 2021-12-23 09:32:55,771 | INFO | root 	 Task 1/10, Epoch 124/170 => Clf loss: 0.019 Aux loss: 0.0, Train Accu: 99.68
+
+ 2021-12-23 09:32:59,544 | INFO | root 	 Task 1/10, Epoch 125/170 => Clf loss: 0.018 Aux loss: 0.0, Train Accu: 99.7
+
+ 2021-12-23 09:33:03,274 | INFO | root 	 Task 1/10, Epoch 126/170 => Clf loss: 0.022 Aux loss: 0.0, Train Accu: 99.72
+
+ 2021-12-23 09:33:07,156 | INFO | root 	 Task 1/10, Epoch 127/170 => Clf loss: 0.016 Aux loss: 0.0, Train Accu: 99.66
+
+ 2021-12-23 09:33:10,913 | INFO | root 	 Task 1/10, Epoch 128/170 => Clf loss: 0.017 Aux loss: 0.0, Train Accu: 99.66
+
+ 2021-12-23 09:33:14,763 | INFO | root 	 Task 1/10, Epoch 129/170 => Clf loss: 0.013 Aux loss: 0.0, Train Accu: 99.8
+
+ 2021-12-23 09:33:18,593 | INFO | root 	 Task 1/10, Epoch 130/170 => Clf loss: 0.021 Aux loss: 0.0, Train Accu: 99.86
+
+ 2021-12-23 09:33:22,518 | INFO | root 	 Task 1/10, Epoch 131/170 => Clf loss: 0.024 Aux loss: 0.0, Train Accu: 99.82
+
+ 2021-12-23 09:33:26,282 | INFO | root 	 Task 1/10, Epoch 132/170 => Clf loss: 0.011 Aux loss: 0.0, Train Accu: 99.86
+
+ 2021-12-23 09:33:30,004 | INFO | root 	 Task 1/10, Epoch 133/170 => Clf loss: 0.015 Aux loss: 0.0, Train Accu: 99.8
+
+ 2021-12-23 09:33:33,707 | INFO | root 	 Task 1/10, Epoch 134/170 => Clf loss: 0.01 Aux loss: 0.0, Train Accu: 99.86
+
+ 2021-12-23 09:33:37,796 | INFO | root 	 Task 1/10, Epoch 135/170 => Clf loss: 0.01 Aux loss: 0.0, Train Accu: 99.92
+
+ 2021-12-23 09:33:41,494 | INFO | root 	 Task 1/10, Epoch 136/170 => Clf loss: 0.012 Aux loss: 0.0, Train Accu: 99.94
+
+ 2021-12-23 09:33:45,484 | INFO | root 	 Task 1/10, Epoch 137/170 => Clf loss: 0.013 Aux loss: 0.0, Train Accu: 99.86
+
+ 2021-12-23 09:33:49,271 | INFO | root 	 Task 1/10, Epoch 138/170 => Clf loss: 0.011 Aux loss: 0.0, Train Accu: 99.76
+
+ 2021-12-23 09:33:52,997 | INFO | root 	 Task 1/10, Epoch 139/170 => Clf loss: 0.008 Aux loss: 0.0, Train Accu: 99.94
+
+ 2021-12-23 09:33:56,712 | INFO | root 	 Task 1/10, Epoch 140/170 => Clf loss: 0.011 Aux loss: 0.0, Train Accu: 99.88
+
+ 2021-12-23 09:34:00,529 | INFO | root 	 Task 1/10, Epoch 141/170 => Clf loss: 0.009 Aux loss: 0.0, Train Accu: 99.92
+
+ 2021-12-23 09:34:04,684 | INFO | root 	 Task 1/10, Epoch 142/170 => Clf loss: 0.01 Aux loss: 0.0, Train Accu: 99.9
+
+ 2021-12-23 09:34:08,767 | INFO | root 	 Task 1/10, Epoch 143/170 => Clf loss: 0.009 Aux loss: 0.0, Train Accu: 99.92
+
+ 2021-12-23 09:34:12,945 | INFO | root 	 Task 1/10, Epoch 144/170 => Clf loss: 0.01 Aux loss: 0.0, Train Accu: 99.88
+
+ 2021-12-23 09:34:16,641 | INFO | root 	 Task 1/10, Epoch 145/170 => Clf loss: 0.012 Aux loss: 0.0, Train Accu: 99.9
+
+ 2021-12-23 09:34:20,463 | INFO | root 	 Task 1/10, Epoch 146/170 => Clf loss: 0.012 Aux loss: 0.0, Train Accu: 99.88
+
+ 2021-12-23 09:34:24,638 | INFO | root 	 Task 1/10, Epoch 147/170 => Clf loss: 0.01 Aux loss: 0.0, Train Accu: 99.88
+
+ 2021-12-23 09:34:28,472 | INFO | root 	 Task 1/10, Epoch 148/170 => Clf loss: 0.014 Aux loss: 0.0, Train Accu: 99.84
+
+ 2021-12-23 09:34:32,201 | INFO | root 	 Task 1/10, Epoch 149/170 => Clf loss: 0.01 Aux loss: 0.0, Train Accu: 99.84
+
+ 2021-12-23 09:34:35,960 | INFO | root 	 Task 1/10, Epoch 150/170 => Clf loss: 0.013 Aux loss: 0.0, Train Accu: 99.86
+
+ 2021-12-23 09:34:39,721 | INFO | root 	 Task 1/10, Epoch 151/170 => Clf loss: 0.012 Aux loss: 0.0, Train Accu: 99.8
+
+ 2021-12-23 09:34:43,701 | INFO | root 	 Task 1/10, Epoch 152/170 => Clf loss: 0.016 Aux loss: 0.0, Train Accu: 99.82
+
+ 2021-12-23 09:34:47,749 | INFO | root 	 Task 1/10, Epoch 153/170 => Clf loss: 0.009 Aux loss: 0.0, Train Accu: 99.86
+
+ 2021-12-23 09:34:51,603 | INFO | root 	 Task 1/10, Epoch 154/170 => Clf loss: 0.009 Aux loss: 0.0, Train Accu: 99.88
+
+ 2021-12-23 09:34:55,363 | INFO | root 	 Task 1/10, Epoch 155/170 => Clf loss: 0.009 Aux loss: 0.0, Train Accu: 99.88
+
+ 2021-12-23 09:34:59,218 | INFO | root 	 Task 1/10, Epoch 156/170 => Clf loss: 0.008 Aux loss: 0.0, Train Accu: 99.94
+
+ 2021-12-23 09:35:02,957 | INFO | root 	 Task 1/10, Epoch 157/170 => Clf loss: 0.008 Aux loss: 0.0, Train Accu: 99.96
+
+ 2021-12-23 09:35:07,000 | INFO | root 	 Task 1/10, Epoch 158/170 => Clf loss: 0.018 Aux loss: 0.0, Train Accu: 99.88
+
+ 2021-12-23 09:35:10,739 | INFO | root 	 Task 1/10, Epoch 159/170 => Clf loss: 0.009 Aux loss: 0.0, Train Accu: 99.88
+
+ 2021-12-23 09:35:14,693 | INFO | root 	 Task 1/10, Epoch 160/170 => Clf loss: 0.014 Aux loss: 0.0, Train Accu: 99.86
+
+ 2021-12-23 09:35:18,456 | INFO | root 	 Task 1/10, Epoch 161/170 => Clf loss: 0.044 Aux loss: 0.0, Train Accu: 99.88
+
+ 2021-12-23 09:35:22,363 | INFO | root 	 Task 1/10, Epoch 162/170 => Clf loss: 0.014 Aux loss: 0.0, Train Accu: 99.84
+
+ 2021-12-23 09:35:26,132 | INFO | root 	 Task 1/10, Epoch 163/170 => Clf loss: 0.013 Aux loss: 0.0, Train Accu: 99.84
+
+ 2021-12-23 09:35:30,164 | INFO | root 	 Task 1/10, Epoch 164/170 => Clf loss: 0.042 Aux loss: 0.0, Train Accu: 99.78
+
+ 2021-12-23 09:35:33,993 | INFO | root 	 Task 1/10, Epoch 165/170 => Clf loss: 0.016 Aux loss: 0.0, Train Accu: 99.86
+
+ 2021-12-23 09:35:37,795 | INFO | root 	 Task 1/10, Epoch 166/170 => Clf loss: 0.008 Aux loss: 0.0, Train Accu: 99.94
+
+ 2021-12-23 09:35:41,634 | INFO | root 	 Task 1/10, Epoch 167/170 => Clf loss: 0.013 Aux loss: 0.0, Train Accu: 99.9
+
+ 2021-12-23 09:35:45,441 | INFO | root 	 Task 1/10, Epoch 168/170 => Clf loss: 0.02 Aux loss: 0.0, Train Accu: 99.92
+
+ 2021-12-23 09:35:49,480 | INFO | root 	 Task 1/10, Epoch 169/170 => Clf loss: 0.017 Aux loss: 0.0, Train Accu: 99.86
+
+ 2021-12-23 09:35:53,388 | INFO | root 	 Task 1/10, Epoch 170/170 => Clf loss: 0.015 Aux loss: 0.0, Train Accu: 99.88
+
+ 2021-12-23 09:35:54,571 | INFO | root 	 After training: Weight norm per class [2.703]
+
+ 2021-12-23 09:35:56,347 | INFO | root 	 Trainset: Feature norm per class [6.46]
+
+ 2021-12-23 09:35:56,354 | INFO | root 	 build memory
+
+ 2021-12-23 09:35:56,355 | INFO | root 	 Building & updating memory.(iCaRL)
+
+ 2021-12-23 09:36:11,536 | INFO | root 	 Save step0 memory!
+
+ 2021-12-23 09:36:11,539 | INFO | root 	 Eval on 0->10.
+
+ 2021-12-23 09:36:12,680 | INFO | root 	 top1:{'total': 94.0, '00-09': 94.0}
+
+ 2021-12-23 09:36:12,681 | INFO | root 	 top1 ema:{'total': 94.0, '00-09': 94.0}
+
+ 2021-12-23 09:36:12,681 | INFO | root 	 top5:{'total': 99.4, '00-09': 99.4}
+
+ 2021-12-23 09:36:12,681 | INFO | root 	 top5 ema:{'total': 99.4, '00-09': 99.4}
+
+ 2021-12-23 09:36:13,512 | INFO | root 	 Begin step 1
+
+ 2021-12-23 09:36:13,513 | INFO | root 	 Now [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100] examplars per class.
+
+ 2021-12-23 09:36:13,517 | INFO | root 	 Step 1 weight decay 0.00050
+
+ 2021-12-23 09:36:13,629 | INFO | root 	 Train on 10->20.
+
+ 2021-12-23 09:36:13,630 | INFO | root 	 nb 7000
+
+ 2021-12-23 09:36:13,633 | INFO | root 	 Initial trainset: Weight norm per class [1.009, 0.998]
+
+ 2021-12-23 09:36:15,576 | INFO | root 	 Initial trainset: Feature norm per class [6.414, 4.69]

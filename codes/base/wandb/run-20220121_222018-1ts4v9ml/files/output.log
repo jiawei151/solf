@@ -1,0 +1,48 @@
+(50000, 256, 256, 3) (50000,)
+Files already downloaded and verified
+Files already downloaded and verified
+> /home/fengjw/solf/inclearn/datasets/data.py(229)_setup_data_for_raw_data()
+-> self.class_order.append(order)
+(Pdb) (Pdb) *** AttributeError: 'IncrementalDataset' object has no attribute 'fake_tarets'
+(Pdb) *** AttributeError: 'IncrementalDataset' object has no attribute 'fake_targets_data'
+(Pdb) array([ True,  True,  True, ...,  True,  True,  True])
+(Pdb) 50000
+(Pdb) 50000
+(Pdb) 50000
+(Pdb) 50000
+(Pdb) 50000
+(Pdb) 50000
+(Pdb) --KeyboardInterrupt--
+(Pdb) 
+Traceback (most recent call last):
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/experiment.py", line 318, in run_commandline
+    options=args,
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/experiment.py", line 276, in run
+    run()
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/run.py", line 238, in __call__
+    self.result = self.main_function(*args)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/config/captured_function.py", line 42, in captured_function
+    result = wrapped(*args, **kwargs)
+  File "/home/fengjw/solf/codes/base/main.py", line 69, in train
+    _train(cfg, _run, ex, tensorboard)
+  File "/home/fengjw/solf/codes/base/main.py", line 77, in _train
+    inc_dataset = factory.get_data(cfg, trial_i)
+  File "/home/fengjw/solf/inclearn/tools/factory.py", line 66, in get_data
+    start_class=cfg["start_class"],
+  File "/home/fengjw/solf/inclearn/datasets/data.py", line 66, in __init__
+    self._setup_data(datasets)
+  File "/home/fengjw/solf/inclearn/datasets/data.py", line 195, in _setup_data
+    self._setup_data_for_raw_data(dataset, train_dataset, test_dataset, current_class_idx)
+  File "/home/fengjw/solf/inclearn/datasets/data.py", line 229, in _setup_data_for_raw_data
+    self.class_order.append(order)
+  File "/home/fengjw/solf/inclearn/datasets/data.py", line 229, in _setup_data_for_raw_data
+    self.class_order.append(order)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+> /home/fengjw/anaconda3/envs/torch3090/lib/python3.7/bdb.py(113)dispatch_line()
+-> if self.quitting: raise BdbQuit
+(Pdb) (Pdb) 
+3

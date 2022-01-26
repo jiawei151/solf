@@ -1,0 +1,16 @@
+Files already downloaded and verified
+Files already downloaded and verified
+ 2021-11-30 17:44:00,670 | INFO | root 	 classes_order
+ 2021-11-30 17:44:00,670 | INFO | root 	 [[87, 0, 52, 58, 44, 91, 68, 97, 51, 15, 94, 92, 10, 72, 49, 78, 61, 14, 8, 86, 84, 96, 18, 24, 32, 45, 88, 11, 4, 67, 69, 66, 77, 47, 79, 93, 29, 50, 57, 83, 17, 81, 41, 12, 37, 59, 25, 20, 80, 73, 1, 28, 6, 46, 62, 82, 53, 9, 31, 75, 38, 63, 33, 74, 27, 22, 36, 3, 16, 21, 60, 19, 70, 90, 89, 43, 5, 42, 65, 76, 40, 30, 23, 85, 2, 95, 56, 48, 71, 64, 98, 13, 99, 7, 34, 55, 54, 26, 35, 39]]
+ 2021-11-30 17:44:03,470 | INFO | root 	 Begin step 0
+ 2021-11-30 17:44:03,470 | INFO | root 	 Now [200, 200, 200, 200, 200, 200, 200, 200, 200, 200] examplars per class.
+ 2021-11-30 17:44:03,471 | INFO | root 	 Step 0 weight decay 0.00050
+ 2021-11-30 17:44:03,554 | INFO | root 	 Train on 0->10.
+ 2021-11-30 17:44:03,555 | INFO | root 	 nb 5000
+ 2021-11-30 17:44:03,556 | INFO | root 	 Initial trainset: Weight norm per class [1.007]
+warmup
+ 2021-11-30 17:44:05,529 | INFO | root 	 Initial trainset: Feature norm per class [1.394]
+ 2021-11-30 17:44:08,059 | INFO | root 	 Task 1/10, Epoch 1/17 => Clf loss: 2.037 Aux loss: 0.0, Train Accu: 28.26
+ 2021-11-30 17:44:11,361 | INFO | root 	 Task 1/10, Epoch 2/17 => Clf loss: 1.783 Aux loss: 0.0, Train Accu: 37.38
+ 2021-11-30 17:44:14,604 | INFO | root 	 Task 1/10, Epoch 3/17 => Clf loss: 1.688 Aux loss: 0.0, Train Accu: 39.8
+ 2021-11-30 17:44:17,895 | INFO | root 	 Task 1/10, Epoch 4/17 => Clf loss: 1.636 Aux loss: 0.0, Train Accu: 42.26

@@ -1,0 +1,227 @@
+Files already downloaded and verified
+Files already downloaded and verified
+ 2021-12-01 03:33:11,565 | INFO | root 	 classes_order
+ 2021-12-01 03:33:11,566 | INFO | root 	 [[87, 0, 52, 58, 44, 91, 68, 97, 51, 15, 94, 92, 10, 72, 49, 78, 61, 14, 8, 86, 84, 96, 18, 24, 32, 45, 88, 11, 4, 67, 69, 66, 77, 47, 79, 93, 29, 50, 57, 83, 17, 81, 41, 12, 37, 59, 25, 20, 80, 73, 1, 28, 6, 46, 62, 82, 53, 9, 31, 75, 38, 63, 33, 74, 27, 22, 36, 3, 16, 21, 60, 19, 70, 90, 89, 43, 5, 42, 65, 76, 40, 30, 23, 85, 2, 95, 56, 48, 71, 64, 98, 13, 99, 7, 34, 55, 54, 26, 35, 39]]
+ 2021-12-01 03:33:14,353 | INFO | root 	 Begin step 0
+ 2021-12-01 03:33:14,354 | INFO | root 	 Now [200, 200, 200, 200, 200, 200, 200, 200, 200, 200] examplars per class.
+ 2021-12-01 03:33:14,355 | INFO | root 	 Step 0 weight decay 0.00050
+ 2021-12-01 03:33:14,435 | INFO | root 	 Train on 0->10.
+ 2021-12-01 03:33:14,436 | INFO | root 	 nb 5000
+ 2021-12-01 03:33:14,437 | INFO | root 	 Initial trainset: Weight norm per class [1.007]
+warmup
+ 2021-12-01 03:33:16,390 | INFO | root 	 Initial trainset: Feature norm per class [1.394]
+ 2021-12-01 03:33:18,958 | INFO | root 	 Task 1/10, Epoch 1/17 => Clf loss: 2.037 Aux loss: 0.0, Train Accu: 28.26
+ 2021-12-01 03:33:22,311 | INFO | root 	 Task 1/10, Epoch 2/17 => Clf loss: 1.783 Aux loss: 0.0, Train Accu: 37.38
+ 2021-12-01 03:33:25,704 | INFO | root 	 Task 1/10, Epoch 3/17 => Clf loss: 1.688 Aux loss: 0.0, Train Accu: 39.8
+ 2021-12-01 03:33:29,088 | INFO | root 	 Task 1/10, Epoch 4/17 => Clf loss: 1.636 Aux loss: 0.0, Train Accu: 42.26
+ 2021-12-01 03:33:32,414 | INFO | root 	 Task 1/10, Epoch 5/17 => Clf loss: 1.525 Aux loss: 0.0, Train Accu: 46.56
+ 2021-12-01 03:33:35,792 | INFO | root 	 Task 1/10, Epoch 6/17 => Clf loss: 1.465 Aux loss: 0.0, Train Accu: 49.02
+ 2021-12-01 03:33:39,164 | INFO | root 	 Task 1/10, Epoch 7/17 => Clf loss: 1.406 Aux loss: 0.0, Train Accu: 51.38
+ 2021-12-01 03:33:42,530 | INFO | root 	 Task 1/10, Epoch 8/17 => Clf loss: 1.331 Aux loss: 0.0, Train Accu: 55.04
+ 2021-12-01 03:33:45,848 | INFO | root 	 Task 1/10, Epoch 9/17 => Clf loss: 1.179 Aux loss: 0.0, Train Accu: 59.9
+ 2021-12-01 03:33:49,154 | INFO | root 	 Task 1/10, Epoch 10/17 => Clf loss: 1.113 Aux loss: 0.0, Train Accu: 61.36
+ 2021-12-01 03:33:52,511 | INFO | root 	 Task 1/10, Epoch 11/17 => Clf loss: 1.26 Aux loss: 0.0, Train Accu: 56.58
+ 2021-12-01 03:33:55,815 | INFO | root 	 Task 1/10, Epoch 12/17 => Clf loss: 0.995 Aux loss: 0.0, Train Accu: 66.08
+ 2021-12-01 03:33:59,123 | INFO | root 	 Task 1/10, Epoch 13/17 => Clf loss: 0.912 Aux loss: 0.0, Train Accu: 68.26
+ 2021-12-01 03:34:02,512 | INFO | root 	 Task 1/10, Epoch 14/17 => Clf loss: 0.932 Aux loss: 0.0, Train Accu: 67.68
+ 2021-12-01 03:34:05,886 | INFO | root 	 Task 1/10, Epoch 15/17 => Clf loss: 0.803 Aux loss: 0.0, Train Accu: 71.6
+ 2021-12-01 03:34:09,238 | INFO | root 	 Task 1/10, Epoch 16/17 => Clf loss: 0.711 Aux loss: 0.0, Train Accu: 76.96
+ 2021-12-01 03:34:12,632 | INFO | root 	 Task 1/10, Epoch 17/17 => Clf loss: 0.812 Aux loss: 0.0, Train Accu: 72.92
+ema init
+ 2021-12-01 03:34:13,428 | INFO | root 	 After training: Weight norm per class [2.314]
+ 2021-12-01 03:34:14,860 | INFO | root 	 Trainset: Feature norm per class [5.462]
+ 2021-12-01 03:34:17,008 | INFO | root 	 build memory
+ 2021-12-01 03:34:17,009 | INFO | root 	 Building & updating memory.(iCaRL)
+ 2021-12-01 03:34:27,489 | INFO | root 	 Save step0 memory!
+ 2021-12-01 03:34:27,491 | INFO | root 	 Eval on 0->10.
+Set memory of size: 2000.
+warmup
+ 2021-12-01 03:34:28,269 | INFO | root 	 top1:{'total': 71.6, '00-09': 71.6}
+ 2021-12-01 03:34:28,270 | INFO | root 	 top1 ema:{'total': 71.6, '00-09': 71.6}
+ 2021-12-01 03:34:28,270 | INFO | root 	 top5:{'total': 97.7, '00-09': 97.7}
+ 2021-12-01 03:34:28,270 | INFO | root 	 top5 ema:{'total': 97.7, '00-09': 97.7}
+ 2021-12-01 03:34:28,645 | INFO | root 	 Begin step 1
+ 2021-12-01 03:34:28,645 | INFO | root 	 Now [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100] examplars per class.
+ 2021-12-01 03:34:28,647 | INFO | root 	 Step 1 weight decay 0.00050
+ 2021-12-01 03:34:28,739 | INFO | root 	 Train on 10->20.
+ 2021-12-01 03:34:28,740 | INFO | root 	 nb 7000
+ 2021-12-01 03:34:28,741 | INFO | root 	 Initial trainset: Weight norm per class [1.009, 0.998]
+ 2021-12-01 03:34:30,283 | INFO | root 	 Initial trainset: Feature norm per class [5.419, 4.948]
+/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /opt/conda/conda-bld/pytorch_1631630836880/work/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+ 2021-12-01 03:34:37,196 | INFO | root 	 Task 2/10, Epoch 1/17 => Clf loss: 2.984 Aux loss: 0.551, Train Accu: 25.914
+ 2021-12-01 03:34:44,427 | INFO | root 	 Task 2/10, Epoch 2/17 => Clf loss: 2.202 Aux loss: 0.541, Train Accu: 42.829
+ 2021-12-01 03:34:51,601 | INFO | root 	 Task 2/10, Epoch 3/17 => Clf loss: 1.923 Aux loss: 0.511, Train Accu: 48.843
+ 2021-12-01 03:34:58,799 | INFO | root 	 Task 2/10, Epoch 4/17 => Clf loss: 1.778 Aux loss: 0.447, Train Accu: 52.4
+ 2021-12-01 03:35:05,998 | INFO | root 	 Task 2/10, Epoch 5/17 => Clf loss: 1.701 Aux loss: 0.39, Train Accu: 56.3
+ 2021-12-01 03:35:13,167 | INFO | root 	 Task 2/10, Epoch 6/17 => Clf loss: 1.641 Aux loss: 0.334, Train Accu: 58.929
+ 2021-12-01 03:35:20,403 | INFO | root 	 Task 2/10, Epoch 7/17 => Clf loss: 1.6 Aux loss: 0.299, Train Accu: 60.671
+ 2021-12-01 03:35:27,584 | INFO | root 	 Task 2/10, Epoch 8/17 => Clf loss: 1.561 Aux loss: 0.276, Train Accu: 62.8
+ 2021-12-01 03:35:34,788 | INFO | root 	 Task 2/10, Epoch 9/17 => Clf loss: 1.524 Aux loss: 0.245, Train Accu: 64.186
+ 2021-12-01 03:35:41,986 | INFO | root 	 Task 2/10, Epoch 10/17 => Clf loss: 1.509 Aux loss: 0.228, Train Accu: 65.557
+ 2021-12-01 03:35:49,166 | INFO | root 	 Task 2/10, Epoch 11/17 => Clf loss: 1.984 Aux loss: 0.242, Train Accu: 57.671
+ 2021-12-01 03:35:56,373 | INFO | root 	 Task 2/10, Epoch 12/17 => Clf loss: 1.502 Aux loss: 0.278, Train Accu: 67.243
+ 2021-12-01 03:36:03,582 | INFO | root 	 Task 2/10, Epoch 13/17 => Clf loss: 1.44 Aux loss: 0.223, Train Accu: 70.029
+ 2021-12-01 03:36:10,837 | INFO | root 	 Task 2/10, Epoch 14/17 => Clf loss: 1.403 Aux loss: 0.203, Train Accu: 70.671
+ 2021-12-01 03:36:18,070 | INFO | root 	 Task 2/10, Epoch 15/17 => Clf loss: 1.37 Aux loss: 0.195, Train Accu: 72.4
+ 2021-12-01 03:36:25,275 | INFO | root 	 Task 2/10, Epoch 16/17 => Clf loss: 1.347 Aux loss: 0.184, Train Accu: 73.043
+ 2021-12-01 03:36:32,481 | INFO | root 	 Task 2/10, Epoch 17/17 => Clf loss: 1.313 Aux loss: 0.171, Train Accu: 75.186
+ 2021-12-01 03:36:33,463 | INFO | root 	 After training: Weight norm per class [2.746, 2.606]
+ema init
+ 2021-12-01 03:36:34,977 | INFO | root 	 Trainset: Feature norm per class [3.674, 2.79]
+ 2021-12-01 03:36:37,125 | INFO | root 	 Begin finetuning last layer
+ 2021-12-01 03:36:40,007 | INFO | root 	 Epoch 0 finetuning loss 2.945 acc 0.259
+ 2021-12-01 03:36:42,889 | INFO | root 	 Epoch 1 finetuning loss 2.787 acc 0.585
+ 2021-12-01 03:36:45,749 | INFO | root 	 Epoch 2 finetuning loss 2.633 acc 0.618
+ 2021-12-01 03:36:48,603 | INFO | root 	 Epoch 3 finetuning loss 2.504 acc 0.635
+ 2021-12-01 03:36:51,474 | INFO | root 	 Epoch 4 finetuning loss 2.393 acc 0.647
+ 2021-12-01 03:36:54,336 | INFO | root 	 Epoch 5 finetuning loss 2.291 acc 0.664
+ 2021-12-01 03:36:57,204 | INFO | root 	 Epoch 6 finetuning loss 2.211 acc 0.680
+ 2021-12-01 03:37:00,080 | INFO | root 	 Epoch 7 finetuning loss 2.135 acc 0.688
+ 2021-12-01 03:37:02,974 | INFO | root 	 Epoch 8 finetuning loss 2.065 acc 0.697
+ 2021-12-01 03:37:05,834 | INFO | root 	 Epoch 9 finetuning loss 2.001 acc 0.700
+ 2021-12-01 03:37:08,718 | INFO | root 	 Epoch 10 finetuning loss 1.947 acc 0.714
+ 2021-12-01 03:37:11,622 | INFO | root 	 Epoch 11 finetuning loss 1.892 acc 0.713
+ 2021-12-01 03:37:14,479 | INFO | root 	 Epoch 12 finetuning loss 1.843 acc 0.726
+ 2021-12-01 03:37:17,333 | INFO | root 	 Epoch 13 finetuning loss 1.794 acc 0.728
+ 2021-12-01 03:37:20,174 | INFO | root 	 Epoch 14 finetuning loss 1.747 acc 0.732
+ 2021-12-01 03:37:23,041 | INFO | root 	 Epoch 15 finetuning loss 1.724 acc 0.740
+ 2021-12-01 03:37:25,946 | INFO | root 	 Epoch 16 finetuning loss 1.720 acc 0.744
+ 2021-12-01 03:37:28,839 | INFO | root 	 Epoch 17 finetuning loss 1.715 acc 0.740
+ 2021-12-01 03:37:31,698 | INFO | root 	 Epoch 18 finetuning loss 1.711 acc 0.742
+ 2021-12-01 03:37:34,592 | INFO | root 	 Epoch 19 finetuning loss 1.713 acc 0.743
+ 2021-12-01 03:37:37,486 | INFO | root 	 Epoch 20 finetuning loss 1.706 acc 0.742
+ 2021-12-01 03:37:40,345 | INFO | root 	 Epoch 21 finetuning loss 1.699 acc 0.738
+ 2021-12-01 03:37:43,236 | INFO | root 	 Epoch 22 finetuning loss 1.698 acc 0.739
+ 2021-12-01 03:37:46,142 | INFO | root 	 Epoch 23 finetuning loss 1.691 acc 0.738
+ 2021-12-01 03:37:49,056 | INFO | root 	 Epoch 24 finetuning loss 1.684 acc 0.747
+ 2021-12-01 03:37:51,974 | INFO | root 	 Epoch 25 finetuning loss 1.686 acc 0.743
+ 2021-12-01 03:37:54,871 | INFO | root 	 Epoch 26 finetuning loss 1.685 acc 0.740
+ 2021-12-01 03:37:57,760 | INFO | root 	 Epoch 27 finetuning loss 1.679 acc 0.746
+ 2021-12-01 03:38:00,632 | INFO | root 	 Epoch 28 finetuning loss 1.674 acc 0.745
+ 2021-12-01 03:38:03,540 | INFO | root 	 Epoch 29 finetuning loss 1.671 acc 0.747
+ 2021-12-01 03:38:06,373 | INFO | root 	 Epoch 30 finetuning loss 1.673 acc 0.746
+ 2021-12-01 03:38:09,252 | INFO | root 	 Epoch 31 finetuning loss 1.666 acc 0.744
+ 2021-12-01 03:38:12,157 | INFO | root 	 Epoch 32 finetuning loss 1.670 acc 0.747
+ 2021-12-01 03:38:15,023 | INFO | root 	 Epoch 33 finetuning loss 1.668 acc 0.743
+ 2021-12-01 03:38:17,898 | INFO | root 	 Epoch 34 finetuning loss 1.665 acc 0.744
+ 2021-12-01 03:38:20,732 | INFO | root 	 Epoch 35 finetuning loss 1.666 acc 0.746
+ 2021-12-01 03:38:23,606 | INFO | root 	 Epoch 36 finetuning loss 1.664 acc 0.744
+ 2021-12-01 03:38:26,474 | INFO | root 	 Epoch 37 finetuning loss 1.665 acc 0.753
+ 2021-12-01 03:38:29,387 | INFO | root 	 Epoch 38 finetuning loss 1.664 acc 0.749
+ 2021-12-01 03:38:32,267 | INFO | root 	 Epoch 39 finetuning loss 1.660 acc 0.754
+ 2021-12-01 03:38:35,173 | INFO | root 	 Epoch 40 finetuning loss 1.662 acc 0.753
+ 2021-12-01 03:38:38,051 | INFO | root 	 Epoch 41 finetuning loss 1.660 acc 0.757
+ 2021-12-01 03:38:40,955 | INFO | root 	 Epoch 42 finetuning loss 1.664 acc 0.753
+ 2021-12-01 03:38:43,828 | INFO | root 	 Epoch 43 finetuning loss 1.665 acc 0.746
+ 2021-12-01 03:38:46,808 | INFO | root 	 Epoch 44 finetuning loss 1.668 acc 0.741
+ 2021-12-01 03:38:49,832 | INFO | root 	 Epoch 45 finetuning loss 1.663 acc 0.747
+ 2021-12-01 03:38:52,909 | INFO | root 	 Epoch 46 finetuning loss 1.663 acc 0.743
+ 2021-12-01 03:38:55,797 | INFO | root 	 Epoch 47 finetuning loss 1.661 acc 0.743
+ 2021-12-01 03:38:58,687 | INFO | root 	 Epoch 48 finetuning loss 1.666 acc 0.742
+ 2021-12-01 03:39:01,549 | INFO | root 	 Epoch 49 finetuning loss 1.660 acc 0.750
+ 2021-12-01 03:39:01,550 | INFO | root 	 build memory
+ 2021-12-01 03:39:01,551 | INFO | root 	 Building & updating memory.(iCaRL)
+ 2021-12-01 03:39:11,225 | INFO | root 	 Save step1 memory!
+ 2021-12-01 03:39:11,305 | INFO | root 	 Eval on 0->20.
+ 2021-12-01 03:39:12,276 | INFO | root 	 top1:{'total': 67.85, '00-09': 72.1, '10-19': 63.6}
+ 2021-12-01 03:39:12,276 | INFO | root 	 top1 ema:{'total': 67.8, '00-09': 72.1, '10-19': 63.5}
+ 2021-12-01 03:39:12,277 | INFO | root 	 top5:{'total': 94.55, '00-09': 95.6, '10-19': 93.5}
+ 2021-12-01 03:39:12,277 | INFO | root 	 top5 ema:{'total': 94.5, '00-09': 95.5, '10-19': 93.5}
+ 2021-12-01 03:39:12,721 | INFO | root 	 Begin step 2
+ 2021-12-01 03:39:12,721 | INFO | root 	 Now [66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66] examplars per class.
+ 2021-12-01 03:39:12,722 | INFO | root 	 Step 2 weight decay 0.00050
+Set memory of size: 2000.
+warmup
+ 2021-12-01 03:39:12,814 | INFO | root 	 Train on 20->30.
+ 2021-12-01 03:39:12,815 | INFO | root 	 nb 7000
+ 2021-12-01 03:39:12,817 | INFO | root 	 Initial trainset: Weight norm per class [1.0, 0.995, 0.991]
+ 2021-12-01 03:39:14,378 | INFO | root 	 Initial trainset: Feature norm per class [3.695, 2.781, 2.661]
+ 2021-12-01 03:39:21,585 | INFO | root 	 Task 3/10, Epoch 1/17 => Clf loss: 3.685 Aux loss: 0.227, Train Accu: 22.286
+ 2021-12-01 03:39:30,021 | INFO | root 	 Task 3/10, Epoch 2/17 => Clf loss: 2.837 Aux loss: 0.259, Train Accu: 42.171
+ 2021-12-01 03:39:38,514 | INFO | root 	 Task 3/10, Epoch 3/17 => Clf loss: 2.126 Aux loss: 0.364, Train Accu: 55.329
+ 2021-12-01 03:39:46,955 | INFO | root 	 Task 3/10, Epoch 4/17 => Clf loss: 1.823 Aux loss: 0.385, Train Accu: 60.6
+ 2021-12-01 03:39:55,412 | INFO | root 	 Task 3/10, Epoch 5/17 => Clf loss: 1.695 Aux loss: 0.354, Train Accu: 64.129
+ 2021-12-01 03:40:03,922 | INFO | root 	 Task 3/10, Epoch 6/17 => Clf loss: 1.679 Aux loss: 0.326, Train Accu: 66.071
+ 2021-12-01 03:40:12,443 | INFO | root 	 Task 3/10, Epoch 7/17 => Clf loss: 1.652 Aux loss: 0.299, Train Accu: 67.014
+ 2021-12-01 03:40:20,869 | INFO | root 	 Task 3/10, Epoch 8/17 => Clf loss: 1.686 Aux loss: 0.278, Train Accu: 66.114
+ 2021-12-01 03:40:29,319 | INFO | root 	 Task 3/10, Epoch 9/17 => Clf loss: 1.637 Aux loss: 0.259, Train Accu: 67.643
+ 2021-12-01 03:40:37,754 | INFO | root 	 Task 3/10, Epoch 10/17 => Clf loss: 1.65 Aux loss: 0.259, Train Accu: 67.257
+ 2021-12-01 03:40:46,146 | INFO | root 	 Task 3/10, Epoch 11/17 => Clf loss: 2.248 Aux loss: 0.281, Train Accu: 59.1
+ 2021-12-01 03:40:54,623 | INFO | root 	 Task 3/10, Epoch 12/17 => Clf loss: 1.633 Aux loss: 0.299, Train Accu: 70.457
+ 2021-12-01 03:41:03,081 | INFO | root 	 Task 3/10, Epoch 13/17 => Clf loss: 1.558 Aux loss: 0.257, Train Accu: 71.943
+ 2021-12-01 03:41:11,532 | INFO | root 	 Task 3/10, Epoch 14/17 => Clf loss: 1.538 Aux loss: 0.248, Train Accu: 72.829
+ 2021-12-01 03:41:20,339 | INFO | root 	 Task 3/10, Epoch 15/17 => Clf loss: 1.492 Aux loss: 0.234, Train Accu: 74.071
+ 2021-12-01 03:41:28,859 | INFO | root 	 Task 3/10, Epoch 16/17 => Clf loss: 1.451 Aux loss: 0.207, Train Accu: 76.057
+ 2021-12-01 03:41:37,257 | INFO | root 	 Task 3/10, Epoch 17/17 => Clf loss: 1.422 Aux loss: 0.204, Train Accu: 77.386
+ 2021-12-01 03:41:38,453 | INFO | root 	 After training: Weight norm per class [2.33, 2.34, 2.458]
+ema init
+ 2021-12-01 03:41:40,013 | INFO | root 	 Trainset: Feature norm per class [4.399, 3.97, 3.174]
+ 2021-12-01 03:41:42,134 | INFO | root 	 Begin finetuning last layer
+ 2021-12-01 03:41:44,467 | INFO | root 	 Epoch 0 finetuning loss 3.378 acc 0.156
+ 2021-12-01 03:41:46,769 | INFO | root 	 Epoch 1 finetuning loss 3.259 acc 0.480
+ 2021-12-01 03:41:49,104 | INFO | root 	 Epoch 2 finetuning loss 3.129 acc 0.558
+ 2021-12-01 03:41:51,396 | INFO | root 	 Epoch 3 finetuning loss 3.011 acc 0.567
+ 2021-12-01 03:41:53,742 | INFO | root 	 Epoch 4 finetuning loss 2.904 acc 0.565
+ 2021-12-01 03:41:56,071 | INFO | root 	 Epoch 5 finetuning loss 2.808 acc 0.574
+ 2021-12-01 03:41:58,417 | INFO | root 	 Epoch 6 finetuning loss 2.717 acc 0.587
+ 2021-12-01 03:42:00,718 | INFO | root 	 Epoch 7 finetuning loss 2.639 acc 0.585
+ 2021-12-01 03:42:03,034 | INFO | root 	 Epoch 8 finetuning loss 2.569 acc 0.588
+ 2021-12-01 03:42:05,324 | INFO | root 	 Epoch 9 finetuning loss 2.502 acc 0.592
+ 2021-12-01 03:42:07,652 | INFO | root 	 Epoch 10 finetuning loss 2.437 acc 0.604
+ 2021-12-01 03:42:09,965 | INFO | root 	 Epoch 11 finetuning loss 2.379 acc 0.607
+ 2021-12-01 03:42:12,289 | INFO | root 	 Epoch 12 finetuning loss 2.322 acc 0.617
+ 2021-12-01 03:42:14,580 | INFO | root 	 Epoch 13 finetuning loss 2.267 acc 0.620
+ 2021-12-01 03:42:16,887 | INFO | root 	 Epoch 14 finetuning loss 2.221 acc 0.637
+ 2021-12-01 03:42:19,168 | INFO | root 	 Epoch 15 finetuning loss 2.193 acc 0.634
+ 2021-12-01 03:42:21,481 | INFO | root 	 Epoch 16 finetuning loss 2.191 acc 0.632
+ 2021-12-01 03:42:23,776 | INFO | root 	 Epoch 17 finetuning loss 2.182 acc 0.632
+ 2021-12-01 03:42:26,056 | INFO | root 	 Epoch 18 finetuning loss 2.188 acc 0.633
+ 2021-12-01 03:42:28,356 | INFO | root 	 Epoch 19 finetuning loss 2.172 acc 0.642
+ 2021-12-01 03:42:30,670 | INFO | root 	 Epoch 20 finetuning loss 2.178 acc 0.636
+ 2021-12-01 03:42:32,948 | INFO | root 	 Epoch 21 finetuning loss 2.165 acc 0.632
+ 2021-12-01 03:42:35,241 | INFO | root 	 Epoch 22 finetuning loss 2.164 acc 0.635
+ 2021-12-01 03:42:37,564 | INFO | root 	 Epoch 23 finetuning loss 2.153 acc 0.647
+ 2021-12-01 03:42:39,927 | INFO | root 	 Epoch 24 finetuning loss 2.150 acc 0.642
+ 2021-12-01 03:42:42,260 | INFO | root 	 Epoch 25 finetuning loss 2.147 acc 0.635
+ 2021-12-01 03:42:44,608 | INFO | root 	 Epoch 26 finetuning loss 2.149 acc 0.640
+ 2021-12-01 03:42:46,986 | INFO | root 	 Epoch 27 finetuning loss 2.145 acc 0.652
+ 2021-12-01 03:42:49,314 | INFO | root 	 Epoch 28 finetuning loss 2.133 acc 0.648
+ 2021-12-01 03:42:51,643 | INFO | root 	 Epoch 29 finetuning loss 2.136 acc 0.633
+ 2021-12-01 03:42:53,980 | INFO | root 	 Epoch 30 finetuning loss 2.126 acc 0.640
+ 2021-12-01 03:42:56,282 | INFO | root 	 Epoch 31 finetuning loss 2.132 acc 0.638
+ 2021-12-01 03:42:58,593 | INFO | root 	 Epoch 32 finetuning loss 2.129 acc 0.645
+ 2021-12-01 03:43:00,896 | INFO | root 	 Epoch 33 finetuning loss 2.132 acc 0.645
+ 2021-12-01 03:43:03,198 | INFO | root 	 Epoch 34 finetuning loss 2.128 acc 0.648
+ 2021-12-01 03:43:05,506 | INFO | root 	 Epoch 35 finetuning loss 2.121 acc 0.647
+ 2021-12-01 03:43:07,828 | INFO | root 	 Epoch 36 finetuning loss 2.130 acc 0.649
+ 2021-12-01 03:43:10,160 | INFO | root 	 Epoch 37 finetuning loss 2.134 acc 0.649
+ 2021-12-01 03:43:12,442 | INFO | root 	 Epoch 38 finetuning loss 2.126 acc 0.645
+ 2021-12-01 03:43:14,758 | INFO | root 	 Epoch 39 finetuning loss 2.132 acc 0.639
+ 2021-12-01 03:43:17,075 | INFO | root 	 Epoch 40 finetuning loss 2.133 acc 0.637
+ 2021-12-01 03:43:19,378 | INFO | root 	 Epoch 41 finetuning loss 2.126 acc 0.646
+ 2021-12-01 03:43:21,726 | INFO | root 	 Epoch 42 finetuning loss 2.127 acc 0.639
+ 2021-12-01 03:43:24,117 | INFO | root 	 Epoch 43 finetuning loss 2.119 acc 0.638
+ 2021-12-01 03:43:26,483 | INFO | root 	 Epoch 44 finetuning loss 2.133 acc 0.637
+ 2021-12-01 03:43:28,852 | INFO | root 	 Epoch 45 finetuning loss 2.123 acc 0.643
+ 2021-12-01 03:43:31,219 | INFO | root 	 Epoch 46 finetuning loss 2.120 acc 0.643
+ 2021-12-01 03:43:33,503 | INFO | root 	 Epoch 47 finetuning loss 2.126 acc 0.641
+ 2021-12-01 03:43:35,812 | INFO | root 	 Epoch 48 finetuning loss 2.122 acc 0.645
+ 2021-12-01 03:43:38,149 | INFO | root 	 Epoch 49 finetuning loss 2.121 acc 0.643
+ 2021-12-01 03:43:38,151 | INFO | root 	 build memory
+ 2021-12-01 03:43:38,151 | INFO | root 	 Building & updating memory.(iCaRL)
+ 2021-12-01 03:43:47,982 | INFO | root 	 Save step2 memory!
+Set memory of size: 1980.
+ 2021-12-01 03:43:48,062 | INFO | root 	 Eval on 0->30.
+ 2021-12-01 03:43:49,260 | INFO | root 	 top1:{'total': 54.233, '00-09': 65.4, '10-19': 61.0, '20-29': 36.3}
+ 2021-12-01 03:43:49,261 | INFO | root 	 top1 ema:{'total': 54.367, '00-09': 65.6, '10-19': 61.5, '20-29': 36.0}
+ 2021-12-01 03:43:49,261 | INFO | root 	 top5:{'total': 86.467, '00-09': 87.1, '10-19': 88.2, '20-29': 84.1}
+ 2021-12-01 03:43:49,261 | INFO | root 	 top5 ema:{'total': 86.867, '00-09': 87.2, '10-19': 88.6, '20-29': 84.8}
+ 2021-12-01 03:43:49,715 | INFO | root 	 Begin step 3
+ 2021-12-01 03:43:49,715 | INFO | root 	 Now [50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50] examplars per class.
+ 2021-12-01 03:43:49,717 | INFO | root 	 Step 3 weight decay 0.00050
+ 2021-12-01 03:43:49,807 | INFO | root 	 Train on 30->40.
+ 2021-12-01 03:43:49,808 | INFO | root 	 nb 6980
+ 2021-12-01 03:43:49,810 | INFO | root 	 Initial trainset: Weight norm per class [1.015, 0.997, 1.01, 1.008]
+warmup

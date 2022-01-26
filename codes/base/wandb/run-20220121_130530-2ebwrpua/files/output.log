@@ -1,0 +1,113 @@
+(50000, 128, 128, 3) (50000,)
+Files already downloaded and verified
+Files already downloaded and verified
+(50000, 32, 32, 3) (50000,)
+ 2022-01-21 13:07:38,093 | INFO | root 	 classes_order
+
+
+ 2022-01-21 13:07:38,093 | INFO | root 	 [[87, 0, 52, 58, 44, 91, 68, 97, 51, 15, 94, 92, 10, 72, 49, 78, 61, 14, 8, 86, 84, 96, 18, 24, 32, 45, 88, 11, 4, 67, 69, 66, 77, 47, 79, 93, 29, 50, 57, 83, 17, 81, 41, 12, 37, 59, 25, 20, 80, 73, 1, 28, 6, 46, 62, 82, 53, 9, 31, 75, 38, 63, 33, 74, 27, 22, 36, 3, 16, 21, 60, 19, 70, 90, 89, 43, 5, 42, 65, 76, 40, 30, 23, 85, 2, 95, 56, 48, 71, 64, 98, 13, 99, 7, 34, 55, 54, 26, 35, 39]]
+
+ 2022-01-21 13:07:59,989 | INFO | root 	 Begin step 0
+
+ 2022-01-21 13:07:59,990 | INFO | root 	 Now [200, 200, 200, 200, 200, 200, 200, 200, 200, 200] examplars per class.
+
+ 2022-01-21 13:07:59,997 | INFO | root 	 Step 0 weight decay 0.00050
+warmup
+
+ 2022-01-21 13:08:00,004 | INFO | root 	 Train on 0->10.
+
+ 2022-01-21 13:08:00,005 | INFO | root 	 nb 5000
+
+ 2022-01-21 13:08:00,008 | INFO | root 	 Initial trainset: Weight norm per class [1.007]
+
+ 2022-01-21 13:08:02,415 | INFO | root 	 Initial trainset: Feature norm per class [1.397]
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([8, 3, 32, 32])
+
+ 2022-01-21 13:08:06,326 | INFO | root 	 Task 1/10, Epoch 1/170 => Clf loss: 2.044 Aux loss: 0.0, Train Accu: 27.62
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([128, 3, 32, 32])
+torch.Size([8, 3, 32, 32])
+
+ 2022-01-21 13:08:11,714 | INFO | root 	 Task 1/10, Epoch 2/170 => Clf loss: 1.76 Aux loss: 0.0, Train Accu: 38.28
+Exception ignored in: <function _releaseLock at 0x7fcabcebb3b0>
+Traceback (most recent call last):
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/logging/__init__.py", line 221, in _releaseLock
+    def _releaseLock():
+KeyboardInterrupt
+Traceback (most recent call last):

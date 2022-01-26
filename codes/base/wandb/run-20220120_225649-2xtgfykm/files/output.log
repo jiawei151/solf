@@ -1,0 +1,44 @@
+(50000, 128, 128, 3) (50000,)
+Files already downloaded and verified
+Files already downloaded and verified
+(50000, 32, 32, 3) (50000,)
+
+ 2022-01-20 22:59:24,329 | INFO | root 	 classes_order
+
+ 2022-01-20 22:59:24,329 | INFO | root 	 [[87, 0, 52, 58, 44, 91, 68, 97, 51, 15, 94, 92, 10, 72, 49, 78, 61, 14, 8, 86, 84, 96, 18, 24, 32, 45, 88, 11, 4, 67, 69, 66, 77, 47, 79, 93, 29, 50, 57, 83, 17, 81, 41, 12, 37, 59, 25, 20, 80, 73, 1, 28, 6, 46, 62, 82, 53, 9, 31, 75, 38, 63, 33, 74, 27, 22, 36, 3, 16, 21, 60, 19, 70, 90, 89, 43, 5, 42, 65, 76, 40, 30, 23, 85, 2, 95, 56, 48, 71, 64, 98, 13, 99, 7, 34, 55, 54, 26, 35, 39]]
+
+ 2022-01-20 22:59:31,074 | INFO | root 	 Begin step 0
+
+ 2022-01-20 22:59:31,076 | INFO | root 	 Now [200, 200, 200, 200, 200, 200, 200, 200, 200, 200] examplars per class.
+
+ 2022-01-20 22:59:31,078 | INFO | root 	 Step 0 weight decay 0.00050
+warmup
+
+ 2022-01-20 22:59:31,083 | INFO | root 	 Train on 0->10.
+
+ 2022-01-20 22:59:31,084 | INFO | root 	 nb 5000
+
+ 2022-01-20 22:59:31,086 | INFO | root 	 Initial trainset: Weight norm per class [1.007]
+
+ 2022-01-20 22:59:33,187 | INFO | root 	 Initial trainset: Feature norm per class [1.397]
+Traceback (most recent call last):
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/experiment.py", line 318, in run_commandline
+    options=args,
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/experiment.py", line 276, in run
+    run()
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/run.py", line 238, in __call__
+    self.result = self.main_function(*args)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/config/captured_function.py", line 42, in captured_function
+    result = wrapped(*args, **kwargs)
+  File "/home/fengjw/solf/codes/base/main.py", line 69, in train
+    _train(cfg, _run, ex, tensorboard)
+  File "/home/fengjw/solf/codes/base/main.py", line 121, in _train
+    model.train_task(train_loader, val_loader)
+  File "/home/fengjw/solf/inclearn/models/base.py", line 43, in train_task
+    self._train_task(train_loader, val_loader)
+  File "/home/fengjw/solf/inclearn/models/generative.py", line 282, in _train_task
+    fake_inputs, fake_targets, _ = next(dataloader_iterator)
+UnboundLocalError: local variable 'dataloader_iterator' referenced before assignment
+> /home/fengjw/solf/inclearn/models/generative.py(282)_train_task()
+-> fake_inputs, fake_targets, _ = next(dataloader_iterator)
+(Pdb) 

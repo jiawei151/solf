@@ -1,0 +1,84 @@
+2021-11-30 14:32:58,940 INFO    MainThread:1914162 [internal.py:wandb_internal():89] W&B internal server running at pid: 1914162, started at: 2021-11-30 14:32:58.937470
+2021-11-30 14:32:58,941 DEBUG   HandlerThread:1914162 [handler.py:handle_request():126] handle_request: check_version
+2021-11-30 14:32:58,989 INFO    WriterThread:1914162 [datastore.py:open_for_write():77] open: /home/share/jiawei/solf/codes/base/wandb/run-20211130_143257-302wc9w6/run-302wc9w6.wandb
+2021-11-30 14:32:58,991 DEBUG   SenderThread:1914162 [sender.py:send():185] send: header
+2021-11-30 14:32:58,991 DEBUG   SenderThread:1914162 [sender.py:send_request():199] send_request: check_version
+2021-11-30 14:32:59,676 DEBUG   SenderThread:1914162 [sender.py:send():185] send: run
+2021-11-30 14:32:59,853 DEBUG   SenderThread:1914162 [git.py:repo():33] git repository is invalid
+2021-11-30 14:33:29,676 DEBUG   HandlerThread:1914162 [handler.py:handle_request():126] handle_request: shutdown
+2021-11-30 14:33:29,677 INFO    HandlerThread:1914162 [handler.py:finish():683] shutting down handler
+2021-11-30 14:33:29,679 INFO    WriterThread:1914162 [datastore.py:close():281] close: /home/share/jiawei/solf/codes/base/wandb/run-20211130_143257-302wc9w6/run-302wc9w6.wandb
+2021-11-30 14:33:35,518 ERROR   SenderThread:1914162 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/http/client.py", line 1369, in getresponse
+    response.begin()
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/http/client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/http/client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/urllib3/connectionpool.py", line 447, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/urllib3/connectionpool.py", line 337, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 132, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2021-11-30 14:39:22,004 INFO    SenderThread:1914162 [dir_watcher.py:__init__():169] watching files in: /home/share/jiawei/solf/codes/base/wandb/run-20211130_143257-302wc9w6/files
+2021-11-30 14:39:22,005 INFO    SenderThread:1914162 [sender.py:_start_run_threads():749] run started: 302wc9w6 with start time 1638253977
+2021-11-30 14:39:22,005 INFO    SenderThread:1914162 [sender.py:finish():986] shutting down sender
+2021-11-30 14:39:22,005 INFO    SenderThread:1914162 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-11-30 14:39:23,005 INFO    SenderThread:1914162 [dir_watcher.py:finish():313] scan: /home/share/jiawei/solf/codes/base/wandb/run-20211130_143257-302wc9w6/files
+2021-11-30 14:39:23,005 INFO    SenderThread:1914162 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_143257-302wc9w6/files/config.yaml config.yaml
+2021-11-30 14:39:23,005 INFO    SenderThread:1914162 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-30 14:39:23,005 INFO    SenderThread:1914162 [file_pusher.py:join():182] waiting for file pusher
+2021-11-30 14:39:23,707 INFO    Thread-10 :1914162 [upload_job.py:push():137] Uploaded file /home/share/jiawei/solf/codes/base/wandb/run-20211130_143257-302wc9w6/files/config.yaml
+2021-11-30 14:39:24,259 INFO    MainThread:1914162 [internal.py:handle_exit():76] Internal process exited

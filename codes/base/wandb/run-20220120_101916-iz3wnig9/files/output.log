@@ -1,0 +1,43 @@
+Files already downloaded and verified
+Files already downloaded and verified
+(50000, 32, 32, 3) (50000,)
+
+ 2022-01-20 10:19:43,712 | INFO | root 	 classes_order
+
+ 2022-01-20 10:19:43,714 | INFO | root 	 [[87, 0, 52, 58, 44, 91, 68, 97, 51, 15, 94, 92, 10, 72, 49, 78, 61, 14, 8, 86, 84, 96, 18, 24, 32, 45, 88, 11, 4, 67, 69, 66, 77, 47, 79, 93, 29, 50, 57, 83, 17, 81, 41, 12, 37, 59, 25, 20, 80, 73, 1, 28, 6, 46, 62, 82, 53, 9, 31, 75, 38, 63, 33, 74, 27, 22, 36, 3, 16, 21, 60, 19, 70, 90, 89, 43, 5, 42, 65, 76, 40, 30, 23, 85, 2, 95, 56, 48, 71, 64, 98, 13, 99, 7, 34, 55, 54, 26, 35, 39]]
+Traceback (most recent call last):
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/fengjw/solf/codes/base/main.py", line 259, in <module>
+    ex.run_commandline()
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/experiment.py", line 318, in run_commandline
+    options=args,
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/experiment.py", line 276, in run
+    run()
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/run.py", line 238, in __call__
+    self.result = self.main_function(*args)
+  File "/home/fengjw/anaconda3/envs/torch3090/lib/python3.7/site-packages/sacred/config/captured_function.py", line 42, in captured_function
+    result = wrapped(*args, **kwargs)
+  File "/home/fengjw/solf/codes/base/main.py", line 69, in train
+    _train(cfg, _run, ex, tensorboard)
+  File "/home/fengjw/solf/codes/base/main.py", line 81, in _train
+    model = factory.get_model(cfg, trial_i, _run, ex, tensorboard, inc_dataset)
+  File "/home/fengjw/solf/inclearn/tools/factory.py", line 35, in get_model
+    return models.IncModel(cfg, trial_i, _run, ex, tensorboard, inc_dataset)
+  File "/home/fengjw/solf/inclearn/models/incmodel.py", line 76, in __init__
+    dataset=cfg["dataset"],
+  File "/home/fengjw/solf/inclearn/convnet/network.py", line 52, in __init__
+    remove_last_relu=self.remove_last_relu)
+  File "/home/fengjw/solf/inclearn/tools/factory.py", line 22, in get_convnet
+    return resMeta.resnet18(**kwargs)
+  File "/home/fengjw/solf/inclearn/convnet/resMeta.py", line 189, in resnet18
+    model = MetaResNetBase(BasicBlock, [2, 2, 2, 2], **kwargs)
+  File "/home/fengjw/solf/inclearn/convnet/resMeta.py", line 104, in __init__
+    self.conv1 = MetaConv2d(3, nf, kernel_size=3, stride=1, padding=1, bias=False)
+  File "/home/fengjw/solf/inclearn/convnet/MetaModules.py", line 252, in __init__
+    self.register_buffer('weight', to_var(ignore.weight.data, requires_grad=True))
+  File "/home/fengjw/solf/inclearn/convnet/MetaModules.py", line 13, in to_var
+    if torch.cuda.is_available(): x = x.cuda()
+KeyboardInterrupt

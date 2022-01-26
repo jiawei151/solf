@@ -1,0 +1,160 @@
+2021-11-30 14:06:15,019 INFO    MainThread:1900235 [internal.py:wandb_internal():89] W&B internal server running at pid: 1900235, started at: 2021-11-30 14:06:15.016365
+2021-11-30 14:06:15,020 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: check_version
+2021-11-30 14:06:15,074 INFO    WriterThread:1900235 [datastore.py:open_for_write():77] open: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/run-1g0oqnnx.wandb
+2021-11-30 14:06:15,076 DEBUG   SenderThread:1900235 [sender.py:send():185] send: header
+2021-11-30 14:06:15,076 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: check_version
+2021-11-30 14:06:15,786 DEBUG   SenderThread:1900235 [sender.py:send():185] send: run
+2021-11-30 14:06:15,832 DEBUG   SenderThread:1900235 [git.py:repo():33] git repository is invalid
+2021-11-30 14:06:16,107 INFO    SenderThread:1900235 [dir_watcher.py:__init__():169] watching files in: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files
+2021-11-30 14:06:16,107 INFO    SenderThread:1900235 [sender.py:_start_run_threads():749] run started: 1g0oqnnx with start time 1638252372
+2021-11-30 14:06:16,110 DEBUG   SenderThread:1900235 [sender.py:send():185] send: summary
+2021-11-30 14:06:16,112 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: run_start
+2021-11-30 14:06:16,130 INFO    SenderThread:1900235 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-11-30 14:06:16,666 DEBUG   HandlerThread:1900235 [meta.py:__init__():40] meta init
+2021-11-30 14:06:16,666 DEBUG   HandlerThread:1900235 [meta.py:__init__():54] meta init done
+2021-11-30 14:06:16,666 DEBUG   HandlerThread:1900235 [meta.py:probe():211] probe
+2021-11-30 14:06:16,680 DEBUG   HandlerThread:1900235 [git.py:repo():33] git repository is invalid
+2021-11-30 14:06:16,680 DEBUG   HandlerThread:1900235 [meta.py:_save_code():90] save code
+2021-11-30 14:06:16,707 DEBUG   HandlerThread:1900235 [meta.py:_save_code():111] save code done
+2021-11-30 14:06:16,707 DEBUG   HandlerThread:1900235 [meta.py:_save_pip():58] save pip
+2021-11-30 14:06:16,715 DEBUG   HandlerThread:1900235 [meta.py:_save_pip():72] save pip done
+2021-11-30 14:06:16,716 DEBUG   HandlerThread:1900235 [meta.py:_save_conda():79] save conda
+2021-11-30 14:06:17,110 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/wandb-summary.json
+2021-11-30 14:06:17,110 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/requirements.txt
+2021-11-30 14:06:17,110 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/code/main.py
+2021-11-30 14:06:17,110 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/conda-environment.yaml
+2021-11-30 14:06:17,110 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/code
+2021-11-30 14:06:19,135 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/conda-environment.yaml
+2021-11-30 14:06:19,183 DEBUG   HandlerThread:1900235 [meta.py:_save_conda():87] save conda done
+2021-11-30 14:06:19,184 DEBUG   HandlerThread:1900235 [meta.py:probe():249] probe done
+2021-11-30 14:06:19,244 DEBUG   SenderThread:1900235 [sender.py:send():185] send: files
+2021-11-30 14:06:19,244 INFO    SenderThread:1900235 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-11-30 14:06:19,244 INFO    SenderThread:1900235 [sender.py:_save_file():879] saving file code/main.py with policy now
+2021-11-30 14:06:19,249 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:06:19,250 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:06:19,483 DEBUG   SenderThread:1900235 [sender.py:send():185] send: run
+2021-11-30 14:06:19,517 DEBUG   SenderThread:1900235 [git.py:repo():33] git repository is invalid
+2021-11-30 14:06:19,771 INFO    SenderThread:1900235 [sender.py:send_run():643] updated run: 1g0oqnnx
+2021-11-30 14:06:19,840 INFO    Thread-11 :1900235 [upload_job.py:push():137] Uploaded file /tmp/tmpniohmph8wandb/1olk2ap4-wandb-metadata.json
+2021-11-30 14:06:19,936 INFO    Thread-12 :1900235 [upload_job.py:push():137] Uploaded file /tmp/tmpniohmph8wandb/3rp7sihf-code/main.py
+2021-11-30 14:06:20,136 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/config.yaml
+2021-11-30 14:06:20,136 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/output.log
+2021-11-30 14:06:20,137 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_created():217] file/dir created: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/wandb-metadata.json
+2021-11-30 14:06:22,157 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/output.log
+2021-11-30 14:06:24,161 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/output.log
+2021-11-30 14:06:26,186 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/output.log
+2021-11-30 14:06:34,484 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:06:34,485 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:06:45,137 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:06:49,716 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:06:49,716 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:07:04,943 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:07:04,944 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:07:15,576 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:07:20,181 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:07:20,181 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:07:35,414 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:07:35,414 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:07:46,017 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:07:50,654 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:07:50,654 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:08:05,889 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:08:05,890 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:08:16,476 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:08:21,124 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:08:21,124 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:08:36,358 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:08:36,358 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:08:46,926 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:08:51,595 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:08:51,595 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:09:06,833 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:09:06,834 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:09:17,374 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:09:22,067 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:09:22,067 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:09:37,296 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:09:37,296 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:09:47,823 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:09:52,833 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:09:52,833 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:10:08,067 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:10:08,068 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:10:18,282 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:10:23,301 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:10:23,301 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:10:38,541 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:10:38,541 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:10:48,743 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:10:53,779 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:10:53,779 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:11:09,018 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:11:09,018 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:11:19,200 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:11:24,252 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:11:24,252 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:11:39,487 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:11:39,487 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:11:49,652 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:11:54,723 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:11:54,723 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:12:10,841 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:12:10,841 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:12:20,117 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:12:26,076 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:12:26,076 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:12:41,314 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:12:41,315 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:12:50,569 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:12:56,550 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:12:56,550 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:13:11,784 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:13:11,784 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:13:21,027 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:13:27,115 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:13:27,115 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:13:42,352 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:13:42,352 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:13:51,483 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:13:57,587 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:13:57,587 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:14:12,824 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:14:12,824 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:14:21,943 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:14:28,061 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:14:28,061 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:14:38,441 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/output.log
+2021-11-30 14:14:43,297 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:14:43,297 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:14:52,399 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:14:58,533 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:14:58,533 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:15:13,775 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:15:13,775 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:15:22,889 DEBUG   SenderThread:1900235 [sender.py:send():185] send: stats
+2021-11-30 14:15:29,014 DEBUG   HandlerThread:1900235 [handler.py:handle_request():126] handle_request: stop_status
+2021-11-30 14:15:29,014 DEBUG   SenderThread:1900235 [sender.py:send_request():199] send_request: stop_status
+2021-11-30 14:15:42,476 INFO    Thread-8  :1900235 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/output.log
+2021-11-30 14:15:43,827 WARNING MainThread:1900235 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-11-30 14:15:44,829 WARNING MainThread:1900235 [internal.py:is_dead():365] Internal process exiting, parent pid 1900109 disappeared
+2021-11-30 14:15:44,829 ERROR   MainThread:1900235 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-11-30 14:15:44,876 INFO    SenderThread:1900235 [sender.py:finish():986] shutting down sender
+2021-11-30 14:15:44,876 INFO    WriterThread:1900235 [datastore.py:close():281] close: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/run-1g0oqnnx.wandb
+2021-11-30 14:15:44,876 INFO    SenderThread:1900235 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-11-30 14:15:44,878 INFO    HandlerThread:1900235 [handler.py:finish():683] shutting down handler
+2021-11-30 14:15:45,477 INFO    SenderThread:1900235 [dir_watcher.py:finish():313] scan: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files
+2021-11-30 14:15:45,477 INFO    SenderThread:1900235 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/wandb-metadata.json wandb-metadata.json
+2021-11-30 14:15:45,478 INFO    SenderThread:1900235 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/requirements.txt requirements.txt
+2021-11-30 14:15:45,478 INFO    SenderThread:1900235 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/wandb-summary.json wandb-summary.json
+2021-11-30 14:15:45,478 INFO    SenderThread:1900235 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/config.yaml config.yaml
+2021-11-30 14:15:45,478 INFO    SenderThread:1900235 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/output.log output.log
+2021-11-30 14:15:45,478 INFO    SenderThread:1900235 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/conda-environment.yaml conda-environment.yaml
+2021-11-30 14:15:45,492 INFO    SenderThread:1900235 [dir_watcher.py:finish():327] scan save: /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/code/main.py code/main.py
+2021-11-30 14:15:45,495 INFO    SenderThread:1900235 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-30 14:15:45,495 INFO    SenderThread:1900235 [file_pusher.py:join():182] waiting for file pusher
+2021-11-30 14:15:46,100 INFO    Thread-15 :1900235 [upload_job.py:push():137] Uploaded file /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/config.yaml
+2021-11-30 14:15:46,107 INFO    Thread-17 :1900235 [upload_job.py:push():137] Uploaded file /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/conda-environment.yaml
+2021-11-30 14:15:46,141 INFO    Thread-13 :1900235 [upload_job.py:push():137] Uploaded file /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/requirements.txt
+2021-11-30 14:15:46,142 INFO    Thread-14 :1900235 [upload_job.py:push():137] Uploaded file /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/wandb-summary.json
+2021-11-30 14:15:47,279 INFO    Thread-16 :1900235 [upload_job.py:push():137] Uploaded file /home/share/jiawei/solf/codes/base/wandb/run-20211130_140612-1g0oqnnx/files/output.log
+2021-11-30 14:15:47,929 INFO    MainThread:1900235 [internal.py:handle_exit():76] Internal process exited

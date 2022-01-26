@@ -1,0 +1,198 @@
+Files already downloaded and verified
+Files already downloaded and verified
+ 2021-11-30 17:44:38,753 | INFO | root 	 classes_order
+ 2021-11-30 17:44:38,753 | INFO | root 	 [[87, 0, 52, 58, 44, 91, 68, 97, 51, 15, 94, 92, 10, 72, 49, 78, 61, 14, 8, 86, 84, 96, 18, 24, 32, 45, 88, 11, 4, 67, 69, 66, 77, 47, 79, 93, 29, 50, 57, 83, 17, 81, 41, 12, 37, 59, 25, 20, 80, 73, 1, 28, 6, 46, 62, 82, 53, 9, 31, 75, 38, 63, 33, 74, 27, 22, 36, 3, 16, 21, 60, 19, 70, 90, 89, 43, 5, 42, 65, 76, 40, 30, 23, 85, 2, 95, 56, 48, 71, 64, 98, 13, 99, 7, 34, 55, 54, 26, 35, 39]]
+ 2021-11-30 17:44:41,533 | INFO | root 	 Begin step 0
+ 2021-11-30 17:44:41,533 | INFO | root 	 Now [200, 200, 200, 200, 200, 200, 200, 200, 200, 200] examplars per class.
+ 2021-11-30 17:44:41,534 | INFO | root 	 Step 0 weight decay 0.00050
+ 2021-11-30 17:44:41,616 | INFO | root 	 Train on 0->10.
+ 2021-11-30 17:44:41,616 | INFO | root 	 nb 5000
+ 2021-11-30 17:44:41,618 | INFO | root 	 Initial trainset: Weight norm per class [1.007]
+warmup
+ 2021-11-30 17:44:43,534 | INFO | root 	 Initial trainset: Feature norm per class [1.394]
+ 2021-11-30 17:44:46,028 | INFO | root 	 Task 1/10, Epoch 1/17 => Clf loss: 2.037 Aux loss: 0.0, Train Accu: 28.26
+ 2021-11-30 17:44:49,189 | INFO | root 	 Task 1/10, Epoch 2/17 => Clf loss: 1.783 Aux loss: 0.0, Train Accu: 37.38
+ 2021-11-30 17:44:52,354 | INFO | root 	 Task 1/10, Epoch 3/17 => Clf loss: 1.688 Aux loss: 0.0, Train Accu: 39.8
+ 2021-11-30 17:44:55,563 | INFO | root 	 Task 1/10, Epoch 4/17 => Clf loss: 1.636 Aux loss: 0.0, Train Accu: 42.26
+ 2021-11-30 17:44:58,701 | INFO | root 	 Task 1/10, Epoch 5/17 => Clf loss: 1.525 Aux loss: 0.0, Train Accu: 46.56
+ 2021-11-30 17:45:01,852 | INFO | root 	 Task 1/10, Epoch 6/17 => Clf loss: 1.465 Aux loss: 0.0, Train Accu: 49.02
+ 2021-11-30 17:45:05,019 | INFO | root 	 Task 1/10, Epoch 7/17 => Clf loss: 1.406 Aux loss: 0.0, Train Accu: 51.38
+ 2021-11-30 17:45:08,254 | INFO | root 	 Task 1/10, Epoch 8/17 => Clf loss: 1.331 Aux loss: 0.0, Train Accu: 55.04
+ 2021-11-30 17:45:11,452 | INFO | root 	 Task 1/10, Epoch 9/17 => Clf loss: 1.179 Aux loss: 0.0, Train Accu: 59.9
+ 2021-11-30 17:45:14,656 | INFO | root 	 Task 1/10, Epoch 10/17 => Clf loss: 1.113 Aux loss: 0.0, Train Accu: 61.36
+ 2021-11-30 17:45:17,862 | INFO | root 	 Task 1/10, Epoch 11/17 => Clf loss: 1.26 Aux loss: 0.0, Train Accu: 56.58
+ 2021-11-30 17:45:21,034 | INFO | root 	 Task 1/10, Epoch 12/17 => Clf loss: 0.995 Aux loss: 0.0, Train Accu: 66.08
+ 2021-11-30 17:45:24,269 | INFO | root 	 Task 1/10, Epoch 13/17 => Clf loss: 0.912 Aux loss: 0.0, Train Accu: 68.26
+ 2021-11-30 17:45:27,422 | INFO | root 	 Task 1/10, Epoch 14/17 => Clf loss: 0.932 Aux loss: 0.0, Train Accu: 67.68
+ 2021-11-30 17:45:30,580 | INFO | root 	 Task 1/10, Epoch 15/17 => Clf loss: 0.803 Aux loss: 0.0, Train Accu: 71.6
+ 2021-11-30 17:45:33,748 | INFO | root 	 Task 1/10, Epoch 16/17 => Clf loss: 0.711 Aux loss: 0.0, Train Accu: 76.96
+ 2021-11-30 17:45:36,896 | INFO | root 	 Task 1/10, Epoch 17/17 => Clf loss: 0.812 Aux loss: 0.0, Train Accu: 72.92
+ 2021-11-30 17:45:37,577 | INFO | root 	 After training: Weight norm per class [2.314]
+ 2021-11-30 17:45:38,845 | INFO | root 	 Trainset: Feature norm per class [5.462]
+ 2021-11-30 17:45:39,664 | INFO | root 	 build memory
+ 2021-11-30 17:45:39,664 | INFO | root 	 Building & updating memory.(iCaRL)
+ema init
+ 2021-11-30 17:45:48,030 | INFO | root 	 Save step0 memory!
+ 2021-11-30 17:45:48,031 | INFO | root 	 Eval on 0->10.
+ 2021-11-30 17:45:48,716 | INFO | root 	 top1:{'total': 71.6, '00-09': 71.6}
+ 2021-11-30 17:45:48,716 | INFO | root 	 top1 ema:{'total': 71.6, '00-09': 71.6}
+ 2021-11-30 17:45:48,716 | INFO | root 	 top5:{'total': 97.7, '00-09': 97.7}
+ 2021-11-30 17:45:48,717 | INFO | root 	 top5 ema:{'total': 97.7, '00-09': 97.7}
+Set memory of size: 2000.
+ 2021-11-30 17:45:49,053 | INFO | root 	 Begin step 1
+ 2021-11-30 17:45:49,054 | INFO | root 	 Now [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100] examplars per class.
+ 2021-11-30 17:45:49,055 | INFO | root 	 Step 1 weight decay 0.00050
+ 2021-11-30 17:45:49,144 | INFO | root 	 Train on 10->20.
+ 2021-11-30 17:45:49,145 | INFO | root 	 nb 7000
+ 2021-11-30 17:45:49,146 | INFO | root 	 Initial trainset: Weight norm per class [1.009, 0.998]
+warmup
+ 2021-11-30 17:45:50,620 | INFO | root 	 Initial trainset: Feature norm per class [5.419, 4.948]
+/home/share/jiawei/anaconda3/envs/torch3090/lib/python3.7/site-packages/torch/_tensor.py:575: UserWarning: floor_divide is deprecated, and will be removed in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values.
+To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor'). (Triggered internally at  /opt/conda/conda-bld/pytorch_1631630836880/work/aten/src/ATen/native/BinaryOps.cpp:467.)
+  return torch.floor_divide(self, other)
+ 2021-11-30 17:45:55,843 | INFO | root 	 Task 2/10, Epoch 1/17 => Clf loss: 2.996 Aux loss: 0.508, Train Accu: 26.571
+0 torch.Size([200, 3, 32, 32])
+1 torch.Size([200, 3, 32, 32])
+2 torch.Size([200, 3, 32, 32])
+3 torch.Size([200, 3, 32, 32])
+4 torch.Size([200, 3, 32, 32])
+5 torch.Size([200, 3, 32, 32])
+6 torch.Size([200, 3, 32, 32])
+7 torch.Size([200, 3, 32, 32])
+8 torch.Size([200, 3, 32, 32])
+9 torch.Size([200, 3, 32, 32])
+0 torch.Size([14, 512]) tensor(0.0139, device='cuda:0')
+1 torch.Size([17, 512]) tensor(0.2851, device='cuda:0')
+2 torch.Size([8, 512]) tensor(0.6001, device='cuda:0')
+3 torch.Size([10, 512]) tensor(0.0167, device='cuda:0')
+4 torch.Size([11, 512]) tensor(0.0111, device='cuda:0')
+5 torch.Size([10, 512]) tensor(0.0100, device='cuda:0')
+6 torch.Size([15, 512]) tensor(0.0454, device='cuda:0')
+7 torch.Size([16, 512]) tensor(0.0072, device='cuda:0')
+8 torch.Size([13, 512]) tensor(0.0163, device='cuda:0')
+9 torch.Size([14, 512]) tensor(0.0034, device='cuda:0')
+ 2021-11-30 17:46:01,263 | INFO | root 	 Task 2/10, Epoch 2/17 => Clf loss: 2.213 Aux loss: 0.462, Train Accu: 42.771
+0 torch.Size([200, 3, 32, 32])
+1 torch.Size([200, 3, 32, 32])
+2 torch.Size([200, 3, 32, 32])
+3 torch.Size([200, 3, 32, 32])
+4 torch.Size([200, 3, 32, 32])
+5 torch.Size([200, 3, 32, 32])
+6 torch.Size([200, 3, 32, 32])
+7 torch.Size([200, 3, 32, 32])
+8 torch.Size([200, 3, 32, 32])
+9 torch.Size([200, 3, 32, 32])
+0 torch.Size([14, 512]) tensor(0.1066, device='cuda:0')
+1 torch.Size([17, 512]) tensor(0.1462, device='cuda:0')
+2 torch.Size([8, 512]) tensor(0.0478, device='cuda:0')
+3 torch.Size([10, 512]) tensor(0.0992, device='cuda:0')
+4 torch.Size([11, 512]) tensor(0.0045, device='cuda:0')
+5 torch.Size([10, 512]) tensor(0.0279, device='cuda:0')
+6 torch.Size([15, 512]) tensor(0.0444, device='cuda:0')
+7 torch.Size([16, 512]) tensor(0.0054, device='cuda:0')
+8 torch.Size([13, 512]) tensor(0.0151, device='cuda:0')
+9 torch.Size([14, 512]) tensor(0.0338, device='cuda:0')
+0 torch.Size([200, 3, 32, 32])
+1 torch.Size([200, 3, 32, 32])
+2 torch.Size([200, 3, 32, 32])
+3 torch.Size([200, 3, 32, 32])
+4 torch.Size([200, 3, 32, 32])
+5 torch.Size([200, 3, 32, 32])
+6 torch.Size([200, 3, 32, 32])
+7 torch.Size([200, 3, 32, 32])
+8 torch.Size([200, 3, 32, 32])
+9 torch.Size([200, 3, 32, 32])
+0 torch.Size([14, 512]) tensor(0.0066, device='cuda:0')
+1 torch.Size([17, 512]) tensor(0.0392, device='cuda:0')
+2 torch.Size([8, 512]) tensor(0.3268, device='cuda:0')
+ 2021-11-30 17:46:06,670 | INFO | root 	 Task 2/10, Epoch 3/17 => Clf loss: 1.931 Aux loss: 0.408, Train Accu: 48.871
+3 torch.Size([10, 512]) tensor(0.0314, device='cuda:0')
+4 torch.Size([11, 512]) tensor(0.0076, device='cuda:0')
+5 torch.Size([10, 512]) tensor(0.0127, device='cuda:0')
+6 torch.Size([15, 512]) tensor(0.0153, device='cuda:0')
+7 torch.Size([16, 512]) tensor(0.0173, device='cuda:0')
+8 torch.Size([13, 512]) tensor(0.0064, device='cuda:0')
+9 torch.Size([14, 512]) tensor(0.0035, device='cuda:0')
+ 2021-11-30 17:46:12,077 | INFO | root 	 Task 2/10, Epoch 4/17 => Clf loss: 1.788 Aux loss: 0.344, Train Accu: 52.229
+0 torch.Size([200, 3, 32, 32])
+1 torch.Size([200, 3, 32, 32])
+2 torch.Size([200, 3, 32, 32])
+3 torch.Size([200, 3, 32, 32])
+4 torch.Size([200, 3, 32, 32])
+5 torch.Size([200, 3, 32, 32])
+6 torch.Size([200, 3, 32, 32])
+7 torch.Size([200, 3, 32, 32])
+8 torch.Size([200, 3, 32, 32])
+9 torch.Size([200, 3, 32, 32])
+0 torch.Size([14, 512]) tensor(0.0109, device='cuda:0')
+1 torch.Size([17, 512]) tensor(0.0150, device='cuda:0')
+2 torch.Size([8, 512]) tensor(0.3446, device='cuda:0')
+3 torch.Size([10, 512]) tensor(0.0068, device='cuda:0')
+4 torch.Size([11, 512]) tensor(0.0127, device='cuda:0')
+5 torch.Size([10, 512]) tensor(0.0137, device='cuda:0')
+6 torch.Size([15, 512]) tensor(0.0394, device='cuda:0')
+7 torch.Size([16, 512]) tensor(0.0212, device='cuda:0')
+8 torch.Size([13, 512]) tensor(0.0092, device='cuda:0')
+9 torch.Size([14, 512]) tensor(0.0033, device='cuda:0')
+ 2021-11-30 17:46:17,486 | INFO | root 	 Task 2/10, Epoch 5/17 => Clf loss: 1.702 Aux loss: 0.287, Train Accu: 56.6
+0 torch.Size([200, 3, 32, 32])
+1 torch.Size([200, 3, 32, 32])
+2 torch.Size([200, 3, 32, 32])
+3 torch.Size([200, 3, 32, 32])
+4 torch.Size([200, 3, 32, 32])
+5 torch.Size([200, 3, 32, 32])
+6 torch.Size([200, 3, 32, 32])
+7 torch.Size([200, 3, 32, 32])
+8 torch.Size([200, 3, 32, 32])
+9 torch.Size([200, 3, 32, 32])
+0 torch.Size([14, 512]) tensor(0.0516, device='cuda:0')
+1 torch.Size([17, 512]) tensor(0.2130, device='cuda:0')
+2 torch.Size([8, 512]) tensor(0.0872, device='cuda:0')
+3 torch.Size([10, 512]) tensor(0.0136, device='cuda:0')
+4 torch.Size([11, 512]) tensor(0.0061, device='cuda:0')
+5 torch.Size([10, 512]) tensor(0.0083, device='cuda:0')
+6 torch.Size([15, 512]) tensor(0.0376, device='cuda:0')
+7 torch.Size([16, 512]) tensor(0.0104, device='cuda:0')
+8 torch.Size([13, 512]) tensor(0.0109, device='cuda:0')
+9 torch.Size([14, 512]) tensor(0.0046, device='cuda:0')
+0 torch.Size([200, 3, 32, 32])
+1 torch.Size([200, 3, 32, 32])
+2 torch.Size([200, 3, 32, 32])
+3 torch.Size([200, 3, 32, 32])
+4 torch.Size([200, 3, 32, 32])
+5 torch.Size([200, 3, 32, 32])
+6 torch.Size([200, 3, 32, 32])
+7 torch.Size([200, 3, 32, 32])
+8 torch.Size([200, 3, 32, 32])
+ 2021-11-30 17:46:22,925 | INFO | root 	 Task 2/10, Epoch 6/17 => Clf loss: 1.638 Aux loss: 0.246, Train Accu: 59.371
+9 torch.Size([200, 3, 32, 32])
+0 torch.Size([14, 512]) tensor(0.0397, device='cuda:0')
+1 torch.Size([17, 512]) tensor(0.4136, device='cuda:0')
+2 torch.Size([8, 512]) tensor(0.1453, device='cuda:0')
+3 torch.Size([10, 512]) tensor(0.0142, device='cuda:0')
+4 torch.Size([11, 512]) tensor(0.0141, device='cuda:0')
+5 torch.Size([10, 512]) tensor(0.0124, device='cuda:0')
+6 torch.Size([15, 512]) tensor(0.0898, device='cuda:0')
+7 torch.Size([16, 512]) tensor(0.0038, device='cuda:0')
+8 torch.Size([13, 512]) tensor(0.0141, device='cuda:0')
+9 torch.Size([14, 512]) tensor(0.0022, device='cuda:0')
+ 2021-11-30 17:46:28,385 | INFO | root 	 Task 2/10, Epoch 7/17 => Clf loss: 1.599 Aux loss: 0.214, Train Accu: 60.9
+0 torch.Size([200, 3, 32, 32])
+1 torch.Size([200, 3, 32, 32])
+2 torch.Size([200, 3, 32, 32])
+3 torch.Size([200, 3, 32, 32])
+4 torch.Size([200, 3, 32, 32])
+5 torch.Size([200, 3, 32, 32])
+6 torch.Size([200, 3, 32, 32])
+7 torch.Size([200, 3, 32, 32])
+8 torch.Size([200, 3, 32, 32])
+9 torch.Size([200, 3, 32, 32])
+0 torch.Size([14, 512]) tensor(0.0109, device='cuda:0')
+1 torch.Size([17, 512]) tensor(0.3617, device='cuda:0')
+2 torch.Size([8, 512]) tensor(0.2659, device='cuda:0')
+3 torch.Size([10, 512]) tensor(0.0162, device='cuda:0')
+4 torch.Size([11, 512]) tensor(0.0084, device='cuda:0')
+5 torch.Size([10, 512]) tensor(0.0169, device='cuda:0')
+6 torch.Size([15, 512]) tensor(0.0112, device='cuda:0')
+7 torch.Size([16, 512]) tensor(0.0106, device='cuda:0')
+8 torch.Size([13, 512]) tensor(0.0115, device='cuda:0')
