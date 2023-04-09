@@ -1,5 +1,5 @@
 # SOLF
-Implementation of [Weight-Output Bi-Directional Constraint for Continual Learning]
+Implementation of our technical report [Weight-Output Bi-Directional Constraint for Continual Learning](https://www.researchgate.net/publication/369901519_Weight-Output_Bi-Directional_Constraint_for_Continual_Learning). 
 
 #### Dataset
 * ImageNet100
