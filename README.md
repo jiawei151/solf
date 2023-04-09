@@ -12,7 +12,7 @@ Refer to [ImageNet100_Split](https://github.com/arthurdouillard/incremental_lear
 * pytorch >1.0 (>1.7 recommended)
 * sacred 0.8.2
 * torchvision 0.10.1
-* cuda 11.2
+* cudatoolkit 11.2
 
 ## Training
 
